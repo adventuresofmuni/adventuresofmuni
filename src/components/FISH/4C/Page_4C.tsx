@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Page_4C_bg = 'assets/FISH/4C/Page_4C_bg.png'
@@ -16,7 +15,7 @@ const Page_4C = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
@@ -24,7 +23,7 @@ const Page_4C = React.forwardRef<HTMLDivElement>((props, ref) => {
           alt="background"
         />
         {/* English Text */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             left: 140,
@@ -34,7 +33,7 @@ const Page_4C = React.forwardRef<HTMLDivElement>((props, ref) => {
           src={language === 'eng' ? Page_4C_eng1 : Page_4C_tag1}
           alt="dialogue"
         />
-        <Image
+        <img
           className="absolute object-contain opacity-0 animate-fadein "
           style={{
             left: 190,

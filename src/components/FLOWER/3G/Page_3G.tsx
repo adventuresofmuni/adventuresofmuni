@@ -1,7 +1,6 @@
-import Image from 'next/image'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 
-// Dialogue Images
+// Dialogue imgs
 const d1_eng = 'assets/FLOWER/3G/d1_eng.png'
 const d2_eng = 'assets/FLOWER/3G/d2_eng.png'
 const d3_eng = 'assets/FLOWER/3G/d3_eng.png'
@@ -104,7 +103,7 @@ const Page_3G = React.forwardRef<
     >
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
@@ -112,7 +111,7 @@ const Page_3G = React.forwardRef<
           alt="background"
         />
         {/* English Text */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             left: dialogue[currentDialogue].left,

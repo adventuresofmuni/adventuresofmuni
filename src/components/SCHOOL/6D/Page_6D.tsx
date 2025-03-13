@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 
@@ -14,7 +13,7 @@ const Page_6D = React.forwardRef<HTMLDivElement>((props, ref) => {
 
   return (
     <div className="relative w-full h-full" ref={ref}>
-      <Image
+      <img
         className="absolute inset-0 object-cover"
         fill
         sizes="100vw"
@@ -29,7 +28,7 @@ const Page_6D = React.forwardRef<HTMLDivElement>((props, ref) => {
           transition={{ duration: 0.3 }}
           className="cursor-pointer absolute text-5xl font-bold flex items-center justify-center text-amber-950"
         >
-          <Image
+          <img
             onClick={() => textAreaRef.current?.focus()}
             className="object-cover "
             style={{

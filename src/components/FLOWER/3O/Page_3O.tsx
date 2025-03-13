@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Image from 'next/image'
 
 const sky = 'assets/FLOWER/sky.png'
 // Flowers
@@ -39,14 +38,14 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
     const { language } = useLanguage()
 
     const flowers = [
-      { id: 'flower1', x: 380, y: 290, image: flower1, imageM: flower1m },
-      { id: 'flower2', x: 480, y: 200, image: flower2, imageM: flower2m },
-      { id: 'flower3', x: 580, y: 150, image: flower3, imageM: flower3m },
-      { id: 'flower4', x: 680, y: 130, image: flower4, imageM: flower4m },
-      { id: 'flower5', x: 780, y: 130, image: flower5, imageM: flower5m },
-      { id: 'flower6', x: 880, y: 150, image: flower6, imageM: flower6m },
-      { id: 'flower7', x: 980, y: 200, image: flower7, imageM: flower7m },
-      { id: 'flower8', x: 1080, y: 290, image: flower8, imageM: flower8m },
+      { id: 'flower1', x: 380, y: 290, img: flower1, imgM: flower1m },
+      { id: 'flower2', x: 480, y: 200, img: flower2, imgM: flower2m },
+      { id: 'flower3', x: 580, y: 150, img: flower3, imgM: flower3m },
+      { id: 'flower4', x: 680, y: 130, img: flower4, imgM: flower4m },
+      { id: 'flower5', x: 780, y: 130, img: flower5, imgM: flower5m },
+      { id: 'flower6', x: 880, y: 150, img: flower6, imgM: flower6m },
+      { id: 'flower7', x: 980, y: 200, img: flower7, imgM: flower7m },
+      { id: 'flower8', x: 1080, y: 290, img: flower8, imgM: flower8m },
     ]
 
     const [positions, setPositions] = useState(
@@ -58,7 +57,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
     )
 
     const draggableRef = useRef<HTMLDivElement>(null)
-    const dropAreaRef = useRef<HTMLImageElement>(null)
+    const dropAreaRef = useRef<HTMLimgElement>(null)
 
     const triggeredRef = useRef(false)
 
@@ -179,7 +178,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
               className="z-[99] cursor-pointer absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center text-white"
             >
               {/* dialogue */}
-              <Image
+              <img
                 className="absolute object-contain"
                 style={{
                   bottom: 0,
@@ -191,7 +190,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             </div>
           )}
           {/* Background */}
-          <Image
+          <img
             className="object-cover"
             fill
             sizes="100vw"
@@ -202,7 +201,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
             {/* Muni + arms container */}
             <div className="relative w-[500px] h-auto">
-              <Image
+              <img
                 src={muni}
                 alt="muni"
                 width={500}
@@ -211,7 +210,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             </div>
           </div>
 
-          {flowers.map(({ id, x, y, image, imageM }) => (
+          {flowers.map(({ id, x, y, img, imgM }) => (
             <Draggable
               key={id}
               disabled={isFlowerDropped[id]}
@@ -223,18 +222,18 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
               nodeRef={draggableRef as React.RefObject<HTMLElement>}
             >
               <div ref={draggableRef} style={{ ...styles.container }}>
-                <Image
+                <img
                   draggable={false}
-                  src={isFlowerDropped[id] ? image : imageM}
+                  src={isFlowerDropped[id] ? img : imgM}
                   alt={id}
-                  style={styles.image}
+                  style={styles.img}
                 />
               </div>
             </Draggable>
           ))}
 
           {/* Arms layered on top */}
-          <Image
+          <img
             ref={dropAreaRef}
             src={arms}
             alt="arms"
@@ -262,7 +261,7 @@ const styles = {
     width: '160px',
     cursor: 'pointer',
   } as React.CSSProperties,
-  image: {
+  img: {
     pointerEvents: 'auto',
     userSelect: 'none',
     WebkitUserSelect: 'none',

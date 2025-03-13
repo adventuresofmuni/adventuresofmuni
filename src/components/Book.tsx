@@ -441,20 +441,6 @@ const audioMap: { [key: number]: { loop: string[]; once: string[] } } = {
 
 const flipAudio = 'audio/SFX/page_flip.mp3'
 
-const preloadImages = (imageUrls: string[]): Promise<void[]> => {
-  return Promise.all(
-    imageUrls.map(
-      (url) =>
-        new Promise<void>((resolve, reject) => {
-          const img = new Image()
-          img.src = url
-          img.onload = () => resolve()
-          img.onerror = reject
-        })
-    )
-  )
-}
-
 const Book = () => {
   //@ts-expect-error
   const flipBookRef = useRef<HTMLFlipBook>(null)

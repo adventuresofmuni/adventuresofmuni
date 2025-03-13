@@ -6,9 +6,9 @@ export function pixelPerfectCollision(
   const cloudImg = cloudDiv.querySelector('img')
   if (!planeImg || !cloudImg) return false
 
-  // Ensure images are loaded
+  // Ensure imgs are loaded
   if (!planeImg.complete || !cloudImg.complete) {
-    console.warn('Images not loaded yet')
+    console.warn('imgs not loaded yet')
     return false
   }
 
@@ -47,33 +47,33 @@ export function pixelPerfectCollision(
   const ctx = canvas.getContext('2d', { willReadFrequently: true })
   if (!ctx) return false
 
-  // Draw the plane image in the overlap region
+  // Draw the plane img in the overlap region
   const planeOffsetX = planeRect.left - overlapLeft
   const planeOffsetY = planeRect.top - overlapTop
 
   ctx.clearRect(0, 0, overlapWidth, overlapHeight)
-  ctx.drawImage(
+  ctx.drawimg(
     planeImg,
     planeOffsetX,
     planeOffsetY,
     planeRect.width,
     planeRect.height
   )
-  const planeData = ctx.getImageData(0, 0, overlapWidth, overlapHeight).data
+  const planeData = ctx.getimgData(0, 0, overlapWidth, overlapHeight).data
 
-  // Draw the cloud image in the same region
+  // Draw the cloud img in the same region
   const cloudOffsetX = cloudRect.left - overlapLeft
   const cloudOffsetY = cloudRect.top - overlapTop
 
   ctx.clearRect(0, 0, overlapWidth, overlapHeight)
-  ctx.drawImage(
+  ctx.drawimg(
     cloudImg,
     cloudOffsetX,
     cloudOffsetY,
     cloudRect.width,
     cloudRect.height
   )
-  const cloudData = ctx.getImageData(0, 0, overlapWidth, overlapHeight).data
+  const cloudData = ctx.getimgData(0, 0, overlapWidth, overlapHeight).data
 
   // Check overlapping pixels for non-zero alpha
   for (let i = 0; i < planeData.length; i += 4) {

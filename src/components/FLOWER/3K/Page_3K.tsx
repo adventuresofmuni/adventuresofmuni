@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 // d1
 const TD_3 = 'assets/TD/TD_3.png'
 const Page_3K_eng = 'assets/FLOWER/3K/Page_3K_eng.png'
@@ -21,7 +19,7 @@ const Page_3K = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
       >
         {/* Background Wrapper */}
         <div className="flex flex-col items-center justify-end w-full h-screen">
-          <Image
+          <img
             className="absolute inset-0 object-cover"
             fill
             sizes="100vw"
@@ -29,7 +27,7 @@ const Page_3K = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             alt="background"
           />
           {/* English Text */}
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               left: language === 'eng' ? 200 : 220,

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 
 // SCHOOL 6A
@@ -81,7 +80,7 @@ const Page_6A = React.forwardRef<
     >
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-center w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
@@ -91,13 +90,13 @@ const Page_6A = React.forwardRef<
 
         {isMuniAwake && (
           <>
-            <Image
+            <img
               className="absolute bottom-0 -left-20 object-contain"
               width={1200}
               src={muni_awake}
               alt="muni_awake"
             />
-            <Image
+            <img
               className="absolute p-24 mr-[100px] top-0 -right-20 object-contain"
               width={900}
               src={muni_text}

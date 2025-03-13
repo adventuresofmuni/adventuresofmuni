@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from 'react'
-import Image from 'next/image'
 
 const survey_bg = 'assets/SCHOOL/6E/survey_bg.png'
 const survey_button = 'assets/SCHOOL/6E/survey_button.png'
@@ -54,13 +53,13 @@ const Page_6E = React.forwardRef<HTMLDivElement, { page: number }>(
           {isButtonVisible && (
             <>
               {' '}
-              <Image
+              <img
                 className="absolute object-contain"
                 src={survey_bg}
                 alt="survey_bg"
                 width={720}
               />
-              <Image
+              <img
                 className="absolute object-contain mt-[120px] cursor-pointer transition-transform duration-200 ease-in-out 
                  hover:scale-110 active:scale-90  active:opacity-60"
                 src={survey_button}

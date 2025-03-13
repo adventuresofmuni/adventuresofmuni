@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 // d1
 const TD_O3 = 'assets/TD/TD_O3.png'
 const Page_3P_eng = 'assets/FLOWER/3P/Page_3P_eng.png'
@@ -38,7 +36,7 @@ const Page_3P = React.forwardRef<
       >
         {/* Background Wrapper */}
         <div className="flex flex-col items-center justify-end w-full h-screen">
-          <Image
+          <img
             className="absolute inset-0 object-cover"
             fill
             sizes="100vw"
@@ -46,7 +44,7 @@ const Page_3P = React.forwardRef<
             alt="background"
           />
           {/* English Text */}
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               left: 220,

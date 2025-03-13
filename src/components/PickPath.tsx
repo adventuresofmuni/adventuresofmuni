@@ -1,4 +1,3 @@
-import Image from 'next/image'
 const Path = 'assets/OUTDOOR/outdoor_2C.png'
 import React from 'react'
 
@@ -58,7 +57,7 @@ const PickPath = React.forwardRef<
       <div className="relative w-full h-full" ref={ref}>
         {/* Background Wrapper (Ensures relative positioning) */}
         <div className="relative w-full h-full">
-          <Image
+          <img
             className="absolute inset-0 object-cover"
             fill
             sizes="100vw"
@@ -69,7 +68,7 @@ const PickPath = React.forwardRef<
 
         {/* English Text */}
         <div className="flex justify-center top-0">
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               top: 40,
@@ -96,12 +95,12 @@ const PickPath = React.forwardRef<
           }}
           style={{ top: '248px', left: '440px', width: '240px' }}
         >
-          <Image
+          <img
             className=" absolute object-cover opacity-0 group-hover:opacity-0 transition-opacity duration-100 ease-in-out"
             src={fish}
             alt="fish"
           />
-          <Image
+          <img
             className="absolute cursor-pointer object-cover opacity-0 group-hover:opacity-100 group-hover transition-opacity duration-100 ease-in-out"
             src={fish_hover}
             alt="fish_hover"
@@ -124,12 +123,12 @@ const PickPath = React.forwardRef<
             }
           }}
         >
-          <Image
+          <img
             className=" absolute object-cover opacity-0 group-hover:opacity-0 transition-opacity duration-100 ease-in-out"
             src={cloud}
             alt="cloud"
           />
-          <Image
+          <img
             className="absolute cursor-pointer object-cover opacity-0 group-hover:opacity-100 group-hover transition-opacity duration-100 ease-in-out"
             src={cloud_hover}
             alt="cloud_hover"
@@ -152,12 +151,12 @@ const PickPath = React.forwardRef<
             }
           }}
         >
-          <Image
+          <img
             className=" absolute object-cover opacity-0 group-hover:opacity-0 transition-opacity duration-100 ease-in-out"
             src={flower}
             alt="flower"
           />
-          <Image
+          <img
             className="absolute cursor-pointer object-cover opacity-0 group-hover:opacity-100 group-hover transition-opacity duration-100 ease-in-out"
             src={flower_hover}
             alt="flower_hover"

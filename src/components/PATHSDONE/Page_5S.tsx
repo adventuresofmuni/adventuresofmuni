@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 5S
@@ -85,7 +84,7 @@ const Page_5S = React.forwardRef<
     >
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
@@ -93,7 +92,7 @@ const Page_5S = React.forwardRef<
           alt="background"
         />
         {/* English Text */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             left: dialogue[currentDialogue].left,

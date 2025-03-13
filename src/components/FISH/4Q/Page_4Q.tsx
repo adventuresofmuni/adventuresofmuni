@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion'
-import Image from 'next/image'
+
 import React, { useEffect, useState } from 'react'
 
 const bg = 'assets/FISH/4Q/bg.png'
@@ -221,7 +221,7 @@ const Page_4Q = React.forwardRef<
           className="z-[20] cursor-pointer absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center text-white"
         >
           {/* dialogue */}
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               bottom: 0,
@@ -233,20 +233,20 @@ const Page_4Q = React.forwardRef<
         </div>
       )}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
           src={bg}
           alt="background"
         />
-        <Image
+        <img
           className="absolute object-contain w-[20%]"
           style={{ left: 180, top: 100 }}
           src={fishing_rod}
           alt="fishing_rod"
         />
-        <Image
+        <img
           className="absolute object-contain w-[9%]"
           style={{ left: 110, top: 115 }}
           src={muni}
@@ -257,7 +257,7 @@ const Page_4Q = React.forwardRef<
       {fishes.map(
         ({ id, fish, left, bottom, width }) =>
           !caughtFish.includes(id) && (
-            <Image
+            <img
               key={id}
               className="absolute object-contain cursor-pointer transition-transform duration-100"
               style={{
@@ -290,13 +290,13 @@ const Page_4Q = React.forwardRef<
 
             {randomCaughtFish && (
               <div>
-                <Image
+                <img
                   className="z-50 absolute object-contain"
                   src={randomCaughtFish.fish}
                   style={{ left: 720, top: 230, width: '34%' }}
                   alt="random caught fish"
                 />
-                <Image
+                <img
                   className="z-50 absolute object-contain"
                   src={
                     language === 'eng'
@@ -309,14 +309,14 @@ const Page_4Q = React.forwardRef<
               </div>
             )}
 
-            <Image
+            <img
               className="object-cover w-full h-full"
               src={Page_4R}
               fill
               sizes="100vw"
               alt="caught fish"
             />
-            <Image
+            <img
               className="absolute object-contain w-[100%]"
               style={{ left: -20, top: 10 }}
               src={rod}

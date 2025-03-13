@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const TD_O3 = 'assets/TD/TD_O3.png'
@@ -20,7 +19,7 @@ const Page_5Q = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           className="flex cursor-pointer flex-col items-center justify-end w-full h-screen"
           onClick={handleNextDialogue}
         >
-          <Image
+          <img
             className="absolute inset-0 object-cover"
             fill
             sizes="100vw"
@@ -28,7 +27,7 @@ const Page_5Q = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             alt="background"
           />
           {/* English Text */}
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               left: 175,

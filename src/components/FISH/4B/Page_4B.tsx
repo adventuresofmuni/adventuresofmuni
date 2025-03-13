@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Page_4B_bg = 'assets/FISH/4B/Page_4B_bg.png'
@@ -14,7 +13,7 @@ const Page_4B = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full " ref={ref}>
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
@@ -22,7 +21,7 @@ const Page_4B = React.forwardRef<HTMLDivElement>((props, ref) => {
           alt="background"
         />
         {/* Characters */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             left: 0,
@@ -33,7 +32,7 @@ const Page_4B = React.forwardRef<HTMLDivElement>((props, ref) => {
           alt="characters"
         />
         {/* English Text */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             top: 100,

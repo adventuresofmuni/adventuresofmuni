@@ -1,16 +1,16 @@
 import React from 'react'
-import Image, { StaticImageData } from 'next/image'
+import img, { StaticimgData } from 'next/img'
 
 interface PageProps {
   number: number
-  component: StaticImageData
-  caption?: StaticImageData
+  component: StaticimgData
+  caption?: StaticimgData
 }
 
 const Page = React.forwardRef<HTMLDivElement, PageProps>((props, ref) => {
   return (
     <div className=" bg-white" ref={ref}>
-      <Image
+      <img
         className="object-cover"
         fill
         priority

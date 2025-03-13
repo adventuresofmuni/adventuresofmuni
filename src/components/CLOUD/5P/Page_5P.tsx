@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useRef, useState } from 'react'
-import Image from 'next/image'
+
 import Draggable from 'react-draggable'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -37,13 +37,13 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
 
     const clouds = useMemo(
       () => [
-        { id: 'cloud1', x: 1280, y: 600, width: '55%', image: cloud1 },
-        { id: 'cloud2', x: 1100, y: 85, width: '30%', image: cloud2 },
-        { id: 'cloud3', x: 560, y: 420, width: '100%', image: cloud3 },
-        { id: 'cloud6', x: 800, y: 820, width: '100%', image: cloud3 },
-        { id: 'cloud4', x: 20, y: 750, width: '30%', image: cloud4 },
-        { id: 'cloud5', x: 40, y: 10, width: '40%', image: cloud5 },
-        { id: 'cloud7', x: 1300, y: 820, width: '20%', image: cloud3 },
+        { id: 'cloud1', x: 1280, y: 600, width: '55%', img: cloud1 },
+        { id: 'cloud2', x: 1100, y: 85, width: '30%', img: cloud2 },
+        { id: 'cloud3', x: 560, y: 420, width: '100%', img: cloud3 },
+        { id: 'cloud6', x: 800, y: 820, width: '100%', img: cloud3 },
+        { id: 'cloud4', x: 20, y: 750, width: '30%', img: cloud4 },
+        { id: 'cloud5', x: 40, y: 10, width: '40%', img: cloud5 },
+        { id: 'cloud7', x: 1300, y: 820, width: '20%', img: cloud3 },
       ],
       []
     )
@@ -121,7 +121,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             className="z-[20] cursor-pointer absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center text-white"
           >
             {/* dialogue */}
-            <Image
+            <img
               className="absolute object-contain"
               style={{
                 bottom: 0,
@@ -138,7 +138,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
         )}
         <div className="flex items-center">
           {/* Background */}
-          <Image
+          <img
             className="object-cover"
             fill
             sizes="100vw"
@@ -183,7 +183,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
                 top: cloud.y,
               }}
             >
-              <Image draggable={false} src={cloud.image} alt="cloud" />
+              <img draggable={false} src={cloud.img} alt="cloud" />
             </div>
           ))}
 
@@ -203,7 +203,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             nodeRef={planeRef as React.RefObject<HTMLElement>}
           >
             <div ref={planeRef}>
-              <Image
+              <img
                 className="cursor-pointer animate-updown"
                 draggable={false}
                 src={plane}
@@ -223,7 +223,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
                 exit={{ translateY: '20px', opacity: 0 }}
                 transition={{ type: 'spring', stiffness: 100, damping: 10 }}
               >
-                <Image
+                <img
                   className="object-cover"
                   src={language === 'eng' ? cloud_hit : cloud_hit_tag}
                   style={{ width: '40%', height: 'auto' }}

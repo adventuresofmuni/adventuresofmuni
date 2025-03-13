@@ -1,4 +1,3 @@
-import Image from 'next/image'
 const Path = 'assets/OUTDOOR/outdoor_2C.png'
 import React from 'react'
 
@@ -7,7 +6,7 @@ const Page_3B = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="relative w-full h-full">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"

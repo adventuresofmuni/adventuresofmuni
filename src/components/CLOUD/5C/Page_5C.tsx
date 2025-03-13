@@ -1,4 +1,3 @@
-import Image from 'next/image'
 const Page_5C_bg = 'assets/CLOUD/5C/Page_5C_bg.png'
 const Page_5C_eng1 = 'assets/CLOUD/5C/Page_5C_eng1.png'
 const Page_5C_eng2 = 'assets/CLOUD/5C/Page_5C_eng2.png'
@@ -14,20 +13,20 @@ const Page_5C = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-full">
-        <Image
+        <img
           className="absolute inset-0 object-cover animate-dolly"
           fill
           sizes="100vw"
           src={Page_5C_bg}
           alt="background"
         />
-        <Image
+        <img
           className="absolute object-cover w-[920px]"
           style={{ bottom: '100px' }}
           src={language === 'eng' ? Page_5C_eng1 : Page_5C_tag1}
           alt="background"
         />
-        <Image
+        <img
           className="absolute object-cover w-[820px]"
           style={{
             bottom: '60px',

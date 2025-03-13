@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 import bg from './modal_minigame.png'
 
 const MiniGameModal = () => {
@@ -24,7 +24,7 @@ const MiniGameModal = () => {
           <h2>Mini Game</h2>
           <p>Play your mini game here.</p>
         </div>
-        <Image src={bg} alt="Mini Game" width={1400} />
+        <img src={bg} alt="Mini Game" width={1400} />
       </div>
     </div>
   )

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const TD_O2 = 'assets/TD/TD_O2.png'
@@ -38,7 +37,7 @@ const Page_4R = React.forwardRef<
           className="flex cursor-pointer flex-col items-center justify-end w-full h-screen"
           onClick={handleNextDialogue}
         >
-          <Image
+          <img
             className="absolute inset-0 object-cover"
             fill
             sizes="100vw"
@@ -46,7 +45,7 @@ const Page_4R = React.forwardRef<
             alt="background"
           />
           {/* English Text */}
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               left: 175,

@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const school_1A = 'assets/SCHOOL/1A/school_1A.png'
 const school_1A_eng = 'assets/SCHOOL/1A/school_1A_eng1.png'
 import React, { useEffect, useState } from 'react'
@@ -56,7 +54,7 @@ const Page_1A = React.forwardRef<
       {showPickLanguage && (
         <div className="z-[20] absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center text-white">
           {/* dialogue */}
-          <Image
+          <img
             className=" object-contain"
             style={{
               bottom: 0,
@@ -66,7 +64,7 @@ const Page_1A = React.forwardRef<
             alt="language"
           />
           <div className="absolute bottom-[360px] flex justify-center space-x-4">
-            <Image
+            <img
               className="object-contain cursor-pointer transition-transform duration-200 ease-in-out 
                hover:scale-110 active:scale-90  active:opacity-60"
               style={{
@@ -78,7 +76,7 @@ const Page_1A = React.forwardRef<
               alt="eng"
             />
 
-            <Image
+            <img
               className="object-contain cursor-pointer transition-transform duration-200 ease-in-out 
                hover:scale-110 active:scale-90  active:opacity-60"
               style={{
@@ -94,14 +92,14 @@ const Page_1A = React.forwardRef<
       )}
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-full">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
           src={school_1A}
           alt="background"
         />
-        <Image
+        <img
           className="absolute object-cover w-[600px]"
           style={{ top: '320px', right: '100px' }}
           width={600}

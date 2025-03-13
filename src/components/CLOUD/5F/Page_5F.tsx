@@ -1,8 +1,7 @@
-import Image from 'next/image'
 import React from 'react'
 const TD_M = 'assets/TD/TD_M.png'
-const Page_5F_eng = 'assets/Page_5F_eng.png'
-const Page_5F_tag = 'assets/Page_5F_tag.png'
+const Page_5F_eng = 'assets/CLOUD/5F/Page_5F_eng.png'
+const Page_5F_tag = 'assets/CLOUD/5F/Page_5F_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_5F = React.forwardRef<HTMLDivElement>((props, ref) => {
@@ -11,14 +10,13 @@ const Page_5F = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
-          fill
           sizes="100vw"
           src={TD_M}
           alt="background"
         />
-        <Image
+        <img
           className="absolute object-contain w-[35%]"
           style={{ right: 180, bottom: language === 'eng' ? 320 : 330 }}
           src={language === 'eng' ? Page_5F_eng : Page_5F_tag}

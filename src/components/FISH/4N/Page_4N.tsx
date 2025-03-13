@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // dialogue choices
@@ -121,7 +120,7 @@ const Page_4N = React.forwardRef<
       onClick={handleNextDialogue}
     >
       {/* Choice dialogue screen */}
-      <Image
+      <img
         className="absolute inset-0 object-cover"
         fill
         sizes="100vw"
@@ -131,7 +130,7 @@ const Page_4N = React.forwardRef<
 
       {selectedChoice === null && (
         <>
-          <Image
+          <img
             className="absolute object-contain cursor-pointer hover:opacity-80 transition"
             style={{
               left: 200,
@@ -143,7 +142,7 @@ const Page_4N = React.forwardRef<
             onClick={() => handleChoiceSelection('A')}
           />
 
-          <Image
+          <img
             className="absolute object-contain cursor-pointer hover:opacity-80 transition"
             style={{
               left: language === 'eng' ? 170 : 240,
@@ -160,7 +159,7 @@ const Page_4N = React.forwardRef<
       {/* Display selected answer dialogues */}
       {selectedChoice !== null &&
         dialogueIndex < answers[selectedChoice].length && (
-          <Image
+          <img
             className="absolute object-contain"
             style={{
               left: answers[selectedChoice][dialogueIndex].left,

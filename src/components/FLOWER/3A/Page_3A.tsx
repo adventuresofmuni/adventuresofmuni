@@ -1,4 +1,3 @@
-import Image from 'next/image'
 const TD_02 = 'assets/FLOWER/3A/TD_02.png'
 const TD_02_english = 'assets/FLOWER/3A/TD_02_english.png'
 import React from 'react'
@@ -13,14 +12,14 @@ const Page_3A = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-full">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
           src={TD_02}
           alt="background"
         />
-        <Image
+        <img
           className="absolute object-cover w-[600px]"
           style={{
             bottom: language === 'eng' ? '320px' : '340px',

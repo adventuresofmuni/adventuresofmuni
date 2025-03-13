@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 // SCHOOL 6B
@@ -13,7 +12,7 @@ const Page_6B = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
           fill
           sizes="100vw"
@@ -21,7 +20,7 @@ const Page_6B = React.forwardRef<HTMLDivElement>((props, ref) => {
           alt="background"
         />
         {/* English Text */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             left: 225,
