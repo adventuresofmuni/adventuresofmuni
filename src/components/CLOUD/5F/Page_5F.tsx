@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import TD_M from '@/components/TD/TD_M.png'
-import Page_5F_eng from '@/components/CLOUD/5F/Page_5F_eng.png'
-import Page_5F_tag from '@/components/CLOUD/5F/Page_5F_tag.png'
+const TD_M = 'assets/TD/TD_M.png'
+const Page_5F_eng = 'assets/Page_5F_eng.png'
+const Page_5F_tag = 'assets/Page_5F_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_5F = React.forwardRef<HTMLDivElement>((props, ref) => {

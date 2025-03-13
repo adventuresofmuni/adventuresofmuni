@@ -2,14 +2,14 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 1C
-import bg from '@/components/SCHOOL/1C/bg.png'
-import Page_1C_eng1 from '@/components/SCHOOL/1C/Page_1C_eng1.png'
-import Page_1C_eng2 from '@/components/SCHOOL/1C/Page_1C_eng2.png'
+const bg = 'assets/SCHOOL/1C/bg.png'
+const Page_1C_eng1 = 'assets/SCHOOL/1C/Page_1C_eng1.png'
+const Page_1C_eng2 = 'assets/SCHOOL/1C/Page_1C_eng2.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 // tagalog
-import Page_1C_tag1 from '@/components/SCHOOL/1C/Page_1C_tag1.png'
-import Page_1C_tag2 from '@/components/SCHOOL/1C/Page_1C_tag2.png'
+const Page_1C_tag1 = 'assets/SCHOOL/1C/Page_1C_tag1.png'
+const Page_1C_tag2 = 'assets/SCHOOL/1C/Page_1C_tag2.png'
 
 const Page_1C = React.forwardRef<
   HTMLDivElement,

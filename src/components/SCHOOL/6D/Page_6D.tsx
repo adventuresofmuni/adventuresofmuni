@@ -2,9 +2,9 @@ import Image from 'next/image'
 import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 
-import bg from '@/components/SCHOOL/6D/bg.png'
-import Page_6D_eng from '@/components/SCHOOL/6D/Page_6D_eng.png'
-import Page_6D_tag from '@/components/SCHOOL/6D/Page_6D_tag.png'
+const bg = 'assets/SCHOOL/6D/bg.png'
+const Page_6D_eng = 'assets/SCHOOL/6D/Page_6D_eng.png'
+const Page_6D_tag = 'assets/SCHOOL/6D/Page_6D_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_6D = React.forwardRef<HTMLDivElement>((props, ref) => {

@@ -2,20 +2,20 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 5K
-import TD_2 from '@/components/TD/CLOUD/TD_2.png'
-import Page_5K_eng from '@/components/CLOUD/5K/Page_5K_eng.png'
+const TD_2 = 'assets/TD/CLOUD/TD_2.png'
+const Page_5K_eng = 'assets/CLOUD/5K/Page_5K_eng.png'
 //tag
-import Page_5K_tag from '@/components/CLOUD/5K/Page_5K_tag.png'
+const Page_5K_tag = 'assets/CLOUD/5K/Page_5K_tag.png'
 
 // 5L
-import TD_3 from '@/components/TD/CLOUD/TD_3.png'
-import Page_5L_eng1 from '@/components/CLOUD/5K/Page_5L_eng1.png'
-import Page_5L_eng2 from '@/components/CLOUD/5K/Page_5L_eng2.png'
-import Page_5L_eng3 from '@/components/CLOUD/5K/Page_5L_eng3.png'
+const TD_3 = 'assets/TD/CLOUD/TD_3.png'
+const Page_5L_eng1 = 'assets/CLOUD/5K/Page_5L_eng1.png'
+const Page_5L_eng2 = 'assets/CLOUD/5K/Page_5L_eng2.png'
+const Page_5L_eng3 = 'assets/CLOUD/5K/Page_5L_eng3.png'
 // tag
-import Page_5L_tag1 from '@/components/CLOUD/5K/Page_5L_tag1.png'
-import Page_5L_tag2 from '@/components/CLOUD/5K/Page_5L_tag2.png'
-import Page_5L_tag3 from '@/components/CLOUD/5K/Page_5L_tag3.png'
+const Page_5L_tag1 = 'assets/CLOUD/5K/Page_5L_tag1.png'
+const Page_5L_tag2 = 'assets/CLOUD/5K/Page_5L_tag2.png'
+const Page_5L_tag3 = 'assets/CLOUD/5K/Page_5L_tag3.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 

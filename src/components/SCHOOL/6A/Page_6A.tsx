@@ -2,11 +2,11 @@ import Image from 'next/image'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 
 // SCHOOL 6A
-import bg1 from '@/components/SCHOOL/6A/bg1.png'
-import bg2 from '@/components/SCHOOL/6D/bg.png'
+const bg1 = 'assets/SCHOOL/6A/bg1.png'
+const bg2 = 'assets/SCHOOL/6D/bg.png'
 
-import muni_awake from '@/components/SCHOOL/6A/muni_awake.gif'
-import muni_text from '@/components/SCHOOL/6A/muni_text.png'
+const muni_awake = 'assets/SCHOOL/6A/muni_awake.gif'
+const muni_text = 'assets/SCHOOL/6A/muni_text.png'
 
 // Dialogue Audio
 const dialogueAudio: { [key: string]: string } = {

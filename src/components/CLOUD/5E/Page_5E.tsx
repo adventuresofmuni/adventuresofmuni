@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-import TD_3 from '@/components/TD/CLOUD/TD_3.png'
-import Page_5E_eng from '@/components/CLOUD/5E/Page_5E_eng.png'
+const TD_3 = 'assets/TD/CLOUD/TD_3.png'
+const Page_5E_eng = 'assets/CLOUD/5E/Page_5E_eng.png'
 // tagalog
-import Page_5E_tag from '@/components/CLOUD/5E/Page_5E_tag.png'
+const Page_5E_tag = 'assets/CLOUD/5E/Page_5E_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_5E = React.forwardRef<HTMLDivElement>((props, ref) => {

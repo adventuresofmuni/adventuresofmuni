@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-import TD_O3 from '@/components/TD/TD_O3.png'
-import Page_5Q_eng from '@/components/CLOUD/5Q/Page_5Q_eng.png'
+const TD_O3 = 'assets/TD/TD_O3.png'
+const Page_5Q_eng = 'assets/CLOUD/5Q/Page_5Q_eng.png'
 import { useLanguage } from '@/hooks/LanguageContext'
-import Page_5Q_tag from '@/components/CLOUD/5Q/Page_5Q_tag.png'
+const Page_5Q_tag = 'assets/CLOUD/5Q/Page_5Q_tag.png'
 
 const Page_5Q = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
   ({ onFlipNext }, ref) => {

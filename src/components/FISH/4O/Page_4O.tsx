@@ -2,18 +2,18 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 //4O
-import TD_2 from '@/components/TD/FISH/TD_2.png'
-import Page_4O_eng1 from '@/components/FISH/4O/Page_4O_eng1.png'
-import Page_4O_eng2 from '@/components/FISH/4O/Page_4O_eng2.png'
+const TD_2 = 'assets/TD/FISH/TD_2.png'
+const Page_4O_eng1 = 'assets/FISH/4O/Page_4O_eng1.png'
+const Page_4O_eng2 = 'assets/FISH/4O/Page_4O_eng2.png'
 // tagalog
-import Page_4O_tag1 from '@/components/FISH/4O/Page_4O_tag1.png'
-import Page_4O_tag2 from '@/components/FISH/4O/Page_4O_tag2.png'
+const Page_4O_tag1 = 'assets/FISH/4O/Page_4O_tag1.png'
+const Page_4O_tag2 = 'assets/FISH/4O/Page_4O_tag2.png'
 
 //4P
-import TD_3 from '@/components/TD/FISH/TD_3.png'
-import Page_4P_eng from '@/components/FISH/4O/Page_4P_eng1.png'
+const TD_3 = 'assets/TD/FISH/TD_3.png'
+const Page_4P_eng = 'assets/FISH/4O/Page_4P_eng1.png'
 // tagalog
-import Page_4P_tag from '@/components/FISH/4O/Page_4P_tag.png'
+const Page_4P_tag = 'assets/FISH/4O/Page_4P_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const dialogueAudio: { [key: string]: string } = {

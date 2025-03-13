@@ -1,16 +1,15 @@
 import Image from 'next/image'
 
-import school_1A from '@/components/SCHOOL/1A/school_1A.png'
-import school_1A_eng from '@/components/SCHOOL/1A/school_1A_eng1.png'
+const school_1A = 'assets/SCHOOL/1A/school_1A.png'
+const school_1A_eng = 'assets/SCHOOL/1A/school_1A_eng1.png'
 import React, { useEffect, useState } from 'react'
 
 // tagalog
-import Page_1A_tag1 from '@/components/SCHOOL/1A/Page_1A_tag1.png'
-
+const Page_1A_tag1 = 'assets/SCHOOL/1A/Page_1A_tag1.png'
 // components pick_language
-import pick_lang from '@/components/pick_language.png'
-import pick_eng from '@/components/pick_eng.png'
-import pick_tag from '@/components/pick_tag.png'
+const pick_lang = 'assets/pick_language.png'
+const pick_eng = 'assets/pick_eng.png'
+const pick_tag = 'assets/pick_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const clickAudio = 'audio/SFX/click_storybook.mp3'
@@ -105,6 +104,8 @@ const Page_1A = React.forwardRef<
         <Image
           className="absolute object-cover w-[600px]"
           style={{ top: '320px', right: '100px' }}
+          width={600}
+          height={600}
           src={language === 'eng' ? school_1A_eng : Page_1A_tag1}
           alt="background"
         />

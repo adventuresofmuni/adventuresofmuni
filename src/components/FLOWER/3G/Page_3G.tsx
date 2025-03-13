@@ -2,19 +2,19 @@ import Image from 'next/image'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 
 // Dialogue Images
-import d1_eng from '@/components/FLOWER/3G/d1_eng.png'
-import d2_eng from '@/components/FLOWER/3G/d2_eng.png'
-import d3_eng from '@/components/FLOWER/3G/d3_eng.png'
+const d1_eng = 'assets/FLOWER/3G/d1_eng.png'
+const d2_eng = 'assets/FLOWER/3G/d2_eng.png'
+const d3_eng = 'assets/FLOWER/3G/d3_eng.png'
 
 // TAG
-import d1_tag from '@/components/FLOWER/3G/d1_tag.png'
-import d2_tag from '@/components/FLOWER/3G/d2_tag.png'
-import d3_tag from '@/components/FLOWER/3G/d3_tag.png'
+const d1_tag = 'assets/FLOWER/3G/d1_tag.png'
+const d2_tag = 'assets/FLOWER/3G/d2_tag.png'
+const d3_tag = 'assets/FLOWER/3G/d3_tag.png'
 
 // TD
-import TD_1 from '@/components/TD/TD_1.png'
-import TD_2 from '@/components/TD/TD_2.png'
-import TD_3 from '@/components/TD/TD_3.png'
+const TD_1 = 'assets/TD/TD_1.png'
+const TD_2 = 'assets/TD/TD_2.png'
+const TD_3 = 'assets/TD/TD_3.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 // Dialogue Audio

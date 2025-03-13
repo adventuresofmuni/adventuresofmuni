@@ -2,9 +2,9 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 5R
-import TD_1 from '@/components/TD/CLOUD/TD_1.png'
-import Page_5R_eng from '@/components/CLOUD/5R/Page_5R_eng.png'
-import Page_5R_tag from '@/components/CLOUD/5R/Page_5R_tag.png'
+const TD_1 = 'assets/TD/CLOUD/TD_1.png'
+const Page_5R_eng = 'assets/CLOUD/5R/Page_5R_eng.png'
+const Page_5R_tag = 'assets/CLOUD/5R/Page_5R_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_5R = React.forwardRef<HTMLDivElement, { page: number }>(

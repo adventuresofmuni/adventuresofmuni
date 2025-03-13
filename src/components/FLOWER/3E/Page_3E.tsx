@@ -1,11 +1,11 @@
 import Image from 'next/image'
 //TD TD_3
-import TD_3 from '@/components/TD/TD_3.png'
-import Page_3E_english from '@/components/FLOWER/3E/Page_3E_english.png'
+const TD_3 = 'assets/TD/TD_3.png'
+const Page_3E_english = 'assets/FLOWER/3E/Page_3E_english.png'
 import React from 'react'
 
 // tag
-import Page_3E_tag from '@/components/FLOWER/3E/Page_3E_tag.png'
+const Page_3E_tag = 'assets/FLOWER/3E/Page_3E_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_3E = React.forwardRef<HTMLDivElement>((props, ref) => {

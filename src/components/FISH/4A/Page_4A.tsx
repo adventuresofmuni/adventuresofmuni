@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-import TD_O2 from '@/components/TD/TD_O2.png'
-import Page_4A_eng from '@/components/FISH/4A/Page_4A_eng.png'
-import Page_4A_tag from '@/components/FISH/4A/Page_4A_tag.png'
+const TD_O2 = 'assets/TD/TD_O2.png'
+const Page_4A_eng = 'assets/FISH/4A/Page_4A_eng.png'
+const Page_4A_tag = 'assets/FISH/4A/Page_4A_tag.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 

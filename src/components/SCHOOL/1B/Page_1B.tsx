@@ -1,16 +1,15 @@
-import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 1B
-import bg from '@/components/SCHOOL/1B/bg.png'
-import Page_1B_eng1 from '@/components/SCHOOL/1B/Page_1B_eng1.png'
-import Page_1B_eng2 from '@/components/SCHOOL/1B/Page_1B_eng2.png'
-import Page_1B_eng3 from '@/components/SCHOOL/1B/Page_1B_eng3.png'
+const bg = 'assets/SCHOOL/1B/bg.png'
+const Page_1B_eng1 = 'assets/SCHOOL/1B/Page_1B_eng1.png'
+const Page_1B_eng2 = 'assets/SCHOOL/1B/Page_1B_eng2.png'
+const Page_1B_eng3 = 'assets/SCHOOL/1B/Page_1B_eng3.png'
 
 // tagalog
-import Page_1B_tag1 from '@/components/SCHOOL/1B/Page_1B_tag1.png'
-import Page_1B_tag2 from '@/components/SCHOOL/1B/Page_1B_tag2.png'
-import Page_1B_tag3 from '@/components/SCHOOL/1B/Page_1B_tag3.png'
+const Page_1B_tag1 = 'assets/SCHOOL/1B/Page_1B_tag1.png'
+const Page_1B_tag2 = 'assets/SCHOOL/1B/Page_1B_tag2.png'
+const Page_1B_tag3 = 'assets/SCHOOL/1B/Page_1B_tag3.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_1B = React.forwardRef<
@@ -79,15 +78,15 @@ const Page_1B = React.forwardRef<
     >
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
-        <Image
+        <img
           className="absolute inset-0 object-cover"
-          fill
+          fill="true"
           sizes="100vw"
           src={dialogue[currentDialogue].bg}
           alt="background"
         />
         {/* English Text */}
-        <Image
+        <img
           className="absolute object-contain"
           style={{
             left: dialogue[currentDialogue].left,

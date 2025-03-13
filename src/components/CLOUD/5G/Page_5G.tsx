@@ -2,19 +2,19 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 5G
-import TD_1 from '@/components/TD/CLOUD/TD_1.png'
-import Page_5G_eng from '@/components/CLOUD/5G/Page_5G_eng.png'
+const TD_1 = 'assets/TD/CLOUD/TD_1.png'
+const Page_5G_eng = 'assets/CLOUD/5G/Page_5G_eng.png'
 // 5H
-import TD_2 from '@/components/TD/CLOUD/TD_2.png'
-import Page_5H_eng from '@/components/CLOUD/5G/Page_5H_eng.png'
+const TD_2 = 'assets/TD/CLOUD/TD_2.png'
+const Page_5H_eng = 'assets/Page_5H_eng.png'
 // 5I
-import TD_3 from '@/components/TD/CLOUD/TD_3.png'
-import Page_5I_eng from '@/components/CLOUD/5G/Page_5I_eng.png'
+const TD_3 = 'assets/TD_3.png'
+const Page_5I_eng = 'assets/Page_5I_eng.png'
 
 // tagalog
-import Page_5G_tag from '@/components/CLOUD/5G/Page_5G_tag.png'
-import Page_5H_tag from '@/components/CLOUD/5G/Page_5H_tag.png'
-import Page_5I_tag from '@/components/CLOUD/5G/Page_5I_tag.png'
+const Page_5G_tag = 'assets/Page_5G_tag.png'
+const Page_5H_tag = 'assets/Page_5H_tag.png'
+const Page_5I_tag = 'assets/Page_5I_tag.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 

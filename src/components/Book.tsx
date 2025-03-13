@@ -2,7 +2,7 @@
 import React, { useRef, useState, useEffect, CSSProperties } from 'react'
 import HTMLFlipBook from 'react-pageflip'
 import PickPath from './PickPath'
-import arrow from '@/components/arrow.png'
+const arrow = 'assets/arrow.png'
 import Page_3B from './FLOWER/3B/Page_3B'
 import Page_3A from './FLOWER/3A/Page_3A'
 import Page_3C from './FLOWER/3C/Page_3C'
@@ -740,11 +740,7 @@ const Book = () => {
     active:scale-90 active:opacity-60 ${hideButtons ? 'hidden' : ''}`}
         onClick={flipToPrevPage}
       >
-        <img
-          src={arrow.src}
-          className="transform -scale-x-100"
-          alt="previous"
-        />
+        <img src={arrow} className="transform -scale-x-100" alt="previous" />
       </button>
 
       <button
@@ -753,7 +749,7 @@ const Book = () => {
     active:scale-90 active:opacity-60 ${hideButtons ? 'hidden' : ''}`}
         onClick={handleNextButton}
       >
-        <img src={arrow.src} alt="next" />
+        <img src={arrow} alt="next" />
       </button>
 
       <div style={containerStyle} className="relative">

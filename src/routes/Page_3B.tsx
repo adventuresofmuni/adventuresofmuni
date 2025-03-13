@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Path from '@/components/OUTDOOR/outdoor_2C.png'
+const Path = 'assets/OUTDOOR/outdoor_2C.png'
 import React from 'react'
 
 const Page_3B = React.forwardRef<HTMLDivElement>((props, ref) => {

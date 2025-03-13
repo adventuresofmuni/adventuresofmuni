@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import Page_5D_bg from '@/components/CLOUD/5D/Page_5D_bg.png'
-import Page_5D_muni from '@/components/CLOUD/5D/Page_5D_muni.gif'
-import Page_5D_eng from '@/components/CLOUD/5D/Page_5D_eng.png'
+const Page_5D_bg = 'assets/CLOUD/5D/Page_5D_bg.png'
+const Page_5D_muni = 'assets/CLOUD/5D/Page_5D_muni.gif'
+const Page_5D_eng = 'assets/CLOUD/5D/Page_5D_eng.png'
 import React from 'react'
 // tagalog
-import Page_5D_tag from '@/components/CLOUD/5D/Page_5D_tag.png'
+const Page_5D_tag = 'assets/CLOUD/5D/Page_5D_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_5D = React.forwardRef<HTMLDivElement>((props, ref) => {

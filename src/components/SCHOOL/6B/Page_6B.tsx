@@ -2,10 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 
 // SCHOOL 6B
-import bg from '@/components/SCHOOL/6B/bg.png'
-import Page_6B_eng from '@/components/SCHOOL/6B/Page_6B_eng.png'
+const bg = 'assets/SCHOOL/6B/bg.png'
+const Page_6B_eng = 'assets/SCHOOL/6B/Page_6B_eng.png'
 // tagalog
-import Page_6B_tag from '@/components/SCHOOL/6B/Page_6B_tag.png'
+const Page_6B_tag = 'assets/SCHOOL/6B/Page_6B_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 const Page_6B = React.forwardRef<HTMLDivElement>((props, ref) => {
   const { language } = useLanguage()

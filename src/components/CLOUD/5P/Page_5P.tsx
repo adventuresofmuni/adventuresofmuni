@@ -3,21 +3,21 @@ import Image from 'next/image'
 import Draggable from 'react-draggable'
 import { motion, AnimatePresence } from 'framer-motion'
 
-import bg from '@/components/CLOUD/5P/bg.png'
-import plane from '@/components/CLOUD/5P/plane.png'
-import cloud1 from '@/components/CLOUD/5P/CLOUDS/cloud1.png'
-import cloud2 from '@/components/CLOUD/5P/CLOUDS/cloud2.png'
-import cloud3 from '@/components/CLOUD/5P/CLOUDS/cloud3.png'
-import cloud4 from '@/components/CLOUD/5P/CLOUDS/cloud4.png'
-import cloud5 from '@/components/CLOUD/5P/CLOUDS/cloud5.png'
-import cloud_dialogue_box_eng from '@/components/CLOUD/5P/cloud_dialogue_box_eng.png'
-import cloud_hit from '@/components/CLOUD/5P/cloud_hit.png'
+const bg = 'assets/CLOUD/5P/bg.png'
+const plane = 'assets/CLOUD/5P/plane.png'
+const cloud1 = 'assets/CLOUD/5P/CLOUDS/cloud1.png'
+const cloud2 = 'assets/CLOUD/5P/CLOUDS/cloud2.png'
+const cloud3 = 'assets/CLOUD/5P/CLOUDS/cloud3.png'
+const cloud4 = 'assets/CLOUD/5P/CLOUDS/cloud4.png'
+const cloud5 = 'assets/CLOUD/5P/CLOUDS/cloud5.png'
+const cloud_dialogue_box_eng = 'assets/CLOUD/5P/cloud_dialogue_box_eng.png'
+const cloud_hit = 'assets/CLOUD/5P/cloud_hit.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 
 // tagalog
-import cloud_dialogue_box_tag from '@/components/CLOUD/5P/cloud_dialogue_box_tag.png'
-import cloud_hit_tag from '@/components/CLOUD/5P/cloud_hit_tag.png'
+const cloud_dialogue_box_tag = 'assets/CLOUD/5P/cloud_dialogue_box_tag.png'
+const cloud_hit_tag = 'assets/CLOUD/5P/cloud_hit_tag.png'
 // The pixelPerfectCollision function from above
 import { pixelPerfectCollision } from '@/utils/pixelCollision'
 

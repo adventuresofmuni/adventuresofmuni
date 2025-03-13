@@ -2,12 +2,12 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 5S
-import TD_smile from '@/components/TD/TD_smile.png'
-import Page_5S_eng1 from '@/components/CLOUD/5R/Page_5S_eng1.png'
-import Page_5S_eng2 from '@/components/CLOUD/5R/Page_5S_eng2.png'
+const TD_smile = 'assets/TD/TD_smile.png'
+const Page_5S_eng1 = 'assets/CLOUD/5R/Page_5S_eng1.png'
+const Page_5S_eng2 = 'assets/CLOUD/5R/Page_5S_eng2.png'
 // tagalog
-import Page_5S_tag1 from '@/components/PATHSDONE/Page_5S_tag1.png'
-import Page_5S_tag2 from '@/components/PATHSDONE/Page_5S_tag2.png'
+const Page_5S_tag1 = 'assets/PATHSDONE/Page_5S_tag1.png'
+const Page_5S_tag2 = 'assets/PATHSDONE/Page_5S_tag2.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 const dialogueAudio: { [key: string]: string } = {

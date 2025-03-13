@@ -2,17 +2,17 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 2A OUTDOOR
-import TD_SMILE from '@/components/TD/TD_smile.png'
-import Page_2B_eng1 from '@/components/OUTDOOR/2B/Page_2B_eng1.png'
-import Page_2B_eng2 from '@/components/OUTDOOR/2B/Page_2B_eng2.png'
-import Page_2B_eng3 from '@/components/OUTDOOR/2B/Page_2B_eng3.png'
-import Page_2B_eng4 from '@/components/OUTDOOR/2B/Page_2B_eng4.png'
+const TD_SMILE = 'assets/TD/TD_smile.png'
+const Page_2B_eng1 = 'assets/OUTDOOR/2B/Page_2B_eng1.png'
+const Page_2B_eng2 = 'assets/OUTDOOR/2B/Page_2B_eng2.png'
+const Page_2B_eng3 = 'assets/OUTDOOR/2B/Page_2B_eng3.png'
+const Page_2B_eng4 = 'assets/OUTDOOR/2B/Page_2B_eng4.png'
 
 // tagalog
-import Page_2B_tag1 from '@/components/OUTDOOR/2B/Page_2B_tag1.png'
-import Page_2B_tag2 from '@/components/OUTDOOR/2B/Page_2B_tag2.png'
-import Page_2B_tag3 from '@/components/OUTDOOR/2B/Page_2B_tag3.png'
-import Page_2B_tag4 from '@/components/OUTDOOR/2B/Page_2B_tag4.png'
+const Page_2B_tag1 = 'assets/OUTDOOR/2B/Page_2B_tag1.png'
+const Page_2B_tag2 = 'assets/OUTDOOR/2B/Page_2B_tag2.png'
+const Page_2B_tag3 = 'assets/OUTDOOR/2B/Page_2B_tag3.png'
+const Page_2B_tag4 = 'assets/OUTDOOR/2B/Page_2B_tag4.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_2B = React.forwardRef<

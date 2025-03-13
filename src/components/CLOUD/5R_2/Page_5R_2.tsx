@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-import TD_O2 from '@/components/TD/TD_O2.png'
+const TD_O2 = 'assets/TD/TD_O2.png'
 // 5R_2 CLOUD
-import Page_5R_2_eng from '@/components/CLOUD/5R_2/Page_5R_2_eng.png'
-import Page_5R_2_eng_done from '@/components/CLOUD/5R_2/Page_5R_2_eng_done.png'
+const Page_5R_2_eng = 'assets/CLOUD/5R_2/Page_5R_2_eng.png'
+const Page_5R_2_eng_done = 'assets/CLOUD/5R_2/Page_5R_2_eng_done.png'
 // tagalog
-import Page_5R_2_tag from '@/components/CLOUD/5R_2/Page_5R_2_tag.png'
+const Page_5R_2_tag = 'assets/CLOUD/5R_2/Page_5R_2_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
-import Page_5R_2_tag_done from '@/components/CLOUD/5R_2/Page_5R_2_tag_done.png'
+const Page_5R_2_tag_done = 'assets/CLOUD/5R_2/Page_5R_2_tag_done.png'
 
 const Page_5R_2 = React.forwardRef<
   HTMLDivElement,

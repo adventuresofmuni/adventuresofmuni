@@ -1,16 +1,16 @@
 import Image from 'next/image'
-import Path from '@/components/OUTDOOR/outdoor_2C.png'
+const Path = 'assets/OUTDOOR/outdoor_2C.png'
 import React from 'react'
 
-import fish from '@/components/OUTDOOR/icons/fish.png'
-import fish_hover from '@/components/OUTDOOR/icons/fish_hover.png'
-import cloud from '@/components/OUTDOOR/icons/cloud.png'
-import cloud_hover from '@/components/OUTDOOR/icons/cloud_hover.png'
-import flower from '@/components/OUTDOOR/icons/flower.png'
-import flower_hover from '@/components/OUTDOOR/icons/flower_hover.png'
+const fish = 'assets/OUTDOOR/icons/fish.png'
+const fish_hover = 'assets/OUTDOOR/icons/fish_hover.png'
+const cloud = 'assets/OUTDOOR/icons/cloud.png'
+const cloud_hover = 'assets/OUTDOOR/icons/cloud_hover.png'
+const flower = 'assets/OUTDOOR/icons/flower.png'
+const flower_hover = 'assets/OUTDOOR/icons/flower_hover.png'
 
-import PickPath_eng from '@/components/PickPath_eng.png'
-import PickPath_tag from '@/components/PickPath_tag.png'
+const PickPath_eng = 'assets/PickPath_eng.png'
+const PickPath_tag = 'assets/PickPath_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const PickPath = React.forwardRef<

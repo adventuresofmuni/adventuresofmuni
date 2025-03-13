@@ -2,19 +2,19 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // dialogue choices
-import TD_1 from '@/components/TD/CLOUD/TD_1.png'
-import TD_4 from '@/components/TD/CLOUD/TD_4.png'
+const TD_1 = 'assets/TD/CLOUD/TD_1.png'
+const TD_4 = 'assets/TD/CLOUD/TD_4.png'
 
-import d_option_a_eng from '@/components/CLOUD/5M/d_option_a_eng.png'
-import d_option_b_eng from '@/components/CLOUD/5M/d_option_b_eng.png'
-import d_answer_a1_eng from '@/components/CLOUD/5M/d_answer_a1_eng.png'
-import d_answer_b1_eng from '@/components/CLOUD/5M/d_answer_b1_eng.png'
+const d_option_a_eng = 'assets/CLOUD/5M/d_option_a_eng.png'
+const d_option_b_eng = 'assets/CLOUD/5M/d_option_b_eng.png'
+const d_answer_a1_eng = 'assets/CLOUD/5M/d_answer_a1_eng.png'
+const d_answer_b1_eng = 'assets/CLOUD/5M/d_answer_b1_eng.png'
 
 // tagalog
-import d_option_a_tag from '@/components/CLOUD/5M/d_option_a_tag.png'
-import d_option_b_tag from '@/components/CLOUD/5M/d_option_b_tag.png'
-import d_answer_a1_tag from '@/components/CLOUD/5M/d_answer_a1_tag.png'
-import d_answer_b1_tag from '@/components/CLOUD/5M/d_answer_b1_tag.png'
+const d_option_a_tag = 'assets/CLOUD/5M/d_option_a_tag.png'
+const d_option_b_tag = 'assets/CLOUD/5M/d_option_b_tag.png'
+const d_answer_a1_tag = 'assets/CLOUD/5M/d_answer_a1_tag.png'
+const d_answer_b1_tag = 'assets/CLOUD/5M/d_answer_b1_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const choiceAudio = 'audio/DIALOGUES/PILOT/PILOT 2.mp3'

@@ -2,13 +2,13 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // 2A OUTDOOR
-import bg from '@/components/OUTDOOR/2A/bg.png'
-import Page_2A_eng1 from '@/components/OUTDOOR/2A/Page_2A_eng1.png'
-import Page_2A_eng2 from '@/components/OUTDOOR/2A/Page_2A_eng2.png'
+const bg = 'assets/OUTDOOR/2A/bg.png'
+const Page_2A_eng1 = 'assets/OUTDOOR/2A/Page_2A_eng1.png'
+const Page_2A_eng2 = 'assets/OUTDOOR/2A/Page_2A_eng2.png'
 
 // tagalog
-import Page_2A_tag1 from '@/components/OUTDOOR/2A/Page_2A_tag1.png'
-import Page_2A_tag2 from '@/components/OUTDOOR/2A/Page_2A_tag2.png'
+const Page_2A_tag1 = 'assets/OUTDOOR/2A/Page_2A_tag1.png'
+const Page_2A_tag2 = 'assets/OUTDOOR/2A/Page_2A_tag2.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_2A = React.forwardRef<

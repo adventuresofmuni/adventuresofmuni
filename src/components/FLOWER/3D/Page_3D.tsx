@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import Page_3D_character from '@/components/FLOWER/3D/Page_3D_character.gif'
-import Page_3D_background from '@/components/FLOWER/3D/Page_3D_background.png'
-import Page_3D_english from '@/components/FLOWER/3D/Page_3D_english.png'
+const Page_3D_character = 'assets/FLOWER/3D/Page_3D_character.gif'
+const Page_3D_background = 'assets/FLOWER/3D/Page_3D_background.png'
+const Page_3D_english = 'assets/FLOWER/3D/Page_3D_english.png'
 import React from 'react'
 
 // tag
-import Page_3D_tag from '@/components/FLOWER/3D/Page_3D_tag.png'
+const Page_3D_tag = 'assets/FLOWER/3D/Page_3D_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_3D = React.forwardRef<HTMLDivElement>((props, ref) => {

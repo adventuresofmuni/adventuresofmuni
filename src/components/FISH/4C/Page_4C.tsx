@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-import Page_4C_bg from '@/components/FISH/4C/Page_4C_bg.png'
-import Page_4C_eng1 from '@/components/FISH/4C/Page_4C_eng1.png'
-import Page_4C_eng2 from '@/components/FISH/4C/Page_4C_eng2.png'
+const Page_4C_bg = 'assets/FISH/4C/Page_4C_bg.png'
+const Page_4C_eng1 = 'assets/FISH/4C/Page_4C_eng1.png'
+const Page_4C_eng2 = 'assets/FISH/4C/Page_4C_eng2.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 // tagalog
-import Page_4C_tag1 from '@/components/FISH/4C/Page_4C_tag1.png'
-import Page_4C_tag2 from '@/components/FISH/4C/Page_4C_tag2.png'
+const Page_4C_tag1 = 'assets/FISH/4C/Page_4C_tag1.png'
+const Page_4C_tag2 = 'assets/FISH/4C/Page_4C_tag2.png'
 
 const Page_4C = React.forwardRef<HTMLDivElement>((props, ref) => {
   const { language } = useLanguage()

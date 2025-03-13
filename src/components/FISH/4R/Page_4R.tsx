@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 
-import TD_O2 from '@/components/TD/TD_O2.png'
-import Page_4T_eng from '@/components/FISH/4R/Page_4T_eng.png'
-import Page_4T_eng_done from '@/components/FISH/4R/Page_4T_eng_done.png'
+const TD_O2 = 'assets/TD/TD_O2.png'
+const Page_4T_eng = 'assets/FISH/4R/Page_4T_eng.png'
+const Page_4T_eng_done = 'assets/FISH/4R/Page_4T_eng_done.png'
 // tagalog
-import Page_4T_tag from '@/components/FISH/4R/Page_4T_tag.png'
-import Page_4T_tag_done from '@/components/FISH/4R/Page_4T_tag_done.png'
+const Page_4T_tag = 'assets/FISH/4R/Page_4T_tag.png'
+const Page_4T_tag_done = 'assets/FISH/4R/Page_4T_tag_done.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_4R = React.forwardRef<

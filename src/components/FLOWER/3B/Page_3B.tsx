@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import flower_3B_sky from '@/components/FLOWER/3B/flower_3B_sky.png'
-import flower_3B_grass from '@/components/FLOWER/3B/flower_3B_grass.png'
-import flower_3B_flowers from '@/components/FLOWER/3B/flower_3B_flowers.gif'
-import flower_3B_characters from '@/components/FLOWER/3B/flower_3B_characters.gif'
-import flower_3B_english from '@/components/FLOWER/3B/flower_3B_english.png'
+const flower_3B_sky = 'assets/FLOWER/3B/flower_3B_sky.png'
+const flower_3B_grass = 'assets/FLOWER/3B/flower_3B_grass.png'
+const flower_3B_flowers = 'assets/FLOWER/3B/flower_3B_flowers.gif'
+const flower_3B_characters = 'assets/FLOWER/3B/flower_3B_characters.gif'
+const flower_3B_english = 'assets/FLOWER/3B/flower_3B_english.png'
 import React from 'react'
 
 // tag
-import Page_3B_tag from '@/components/FLOWER/3B/Page_3B_tag.png'
+const Page_3B_tag = 'assets/FLOWER/3B/Page_3B_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const Page_3B = React.forwardRef<HTMLDivElement>((props, ref) => {

@@ -2,14 +2,14 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // d1
-import TD_2 from '@/components/TD/TD_2.png'
-import TD_3 from '@/components/TD/TD_3.png'
-import Page_3M_eng from '@/components/FLOWER/3MN/Page_3M_eng.png'
-import Page_3N_eng from '@/components/FLOWER/3MN/Page_3N_eng.png'
+const TD_2 = 'assets/TD/TD_2.png'
+const TD_3 = 'assets/TD/TD_3.png'
+const Page_3M_eng = 'assets/FLOWER/3MN/Page_3M_eng.png'
+const Page_3N_eng = 'assets/FLOWER/3MN/Page_3N_eng.png'
 
 // tagalog
-import Page_3M_tag from '@/components/FLOWER/3MN/Page_3M_tag.png'
-import Page_3N_tag from '@/components/FLOWER/3MN/Page_3N_tag.png'
+const Page_3M_tag = 'assets/FLOWER/3MN/Page_3M_tag.png'
+const Page_3N_tag = 'assets/FLOWER/3MN/Page_3N_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 // Dialogue Audio

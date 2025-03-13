@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
 // d1
-import TD_3 from '@/components/TD/TD_3.png'
-import Page_3K_eng from '@/components/FLOWER/3K/Page_3K_eng.png'
-import Page_3K_tag from '@/components/FLOWER/3K/Page_3K_tag.png'
+const TD_3 = 'assets/TD/TD_3.png'
+const Page_3K_eng = 'assets/FLOWER/3K/Page_3K_eng.png'
+const Page_3K_tag = 'assets/FLOWER/3K/Page_3K_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 import React from 'react'
 

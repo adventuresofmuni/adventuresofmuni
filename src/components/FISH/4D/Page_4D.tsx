@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
-import Page_4D_bg from '@/components/FISH/4D/Page_4D_bg.png'
-import Page_4D_muni from '@/components/FISH/4D/Page_4D_muni.gif'
-import Page_4D_eng from '@/components/FISH/4D/Page_4D_eng.png'
+const Page_4D_bg = 'assets/FISH/4D/Page_4D_bg.png'
+const Page_4D_muni = 'assets/FISH/4D/Page_4D_muni.gif'
+const Page_4D_eng = 'assets/FISH/4D/Page_4D_eng.png'
 // tagalog
-import Page_4D_tag from '@/components/FISH/4D/Page_4D_tag.png'
+const Page_4D_tag = 'assets/FISH/4D/Page_4D_tag.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 

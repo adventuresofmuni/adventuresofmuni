@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import loading from '@/components/loading.gif'
+const loading = 'assets/loading.gif'
 
 const LoadingPage = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
@@ -9,6 +9,7 @@ const LoadingPage = React.forwardRef<HTMLDivElement>((props, ref) => {
         <Image
           className="object-cover"
           width={150}
+          height={150}
           src={loading}
           alt="loading"
         />

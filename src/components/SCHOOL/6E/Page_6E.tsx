@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Image from 'next/image'
 
-import survey_bg from '@/components/SCHOOL/6E/survey_bg.png'
-import survey_button from '@/components/SCHOOL/6E/survey_button.png'
+const survey_bg = 'assets/SCHOOL/6E/survey_bg.png'
+const survey_button = 'assets/SCHOOL/6E/survey_button.png'
 
 const Page_6E = React.forwardRef<HTMLDivElement, { page: number }>(
   ({ page }, ref) => {

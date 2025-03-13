@@ -2,19 +2,19 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 // dialogue choices
-import Page_3_eng_ans_a from '@/components/FLOWER/3L/Page_3L_eng_ans_a.png'
-import Page_3_eng_ans_b from '@/components/FLOWER/3L/Page_3L_eng_ans_b.png'
-import Page_3_eng_opt_a from '@/components/FLOWER/3L/Page_3L_eng_opt_a.png'
-import Page_3_eng_opt_b from '@/components/FLOWER/3L/Page_3L_eng_opt_b.png'
+const Page_3_eng_ans_a = 'assets/FLOWER/3L/Page_3L_eng_ans_a.png'
+const Page_3_eng_ans_b = 'assets/FLOWER/3L/Page_3L_eng_ans_b.png'
+const Page_3_eng_opt_a = 'assets/FLOWER/3L/Page_3L_eng_opt_a.png'
+const Page_3_eng_opt_b = 'assets/FLOWER/3L/Page_3L_eng_opt_b.png'
 
 // tagalog
-import d_answer_a_tag from '@/components/FLOWER/3J/d_answer_a_tag.png'
-import d_answer_b_tag from '@/components/FLOWER/3J/d_answer_b_tag.png'
-import d_option_a_tag from '@/components/FLOWER/3J/d_option_a_tag.png'
-import d_option_b_tag from '@/components/FLOWER/3J/d_option_b_tag.png'
+const d_answer_a_tag = 'assets/FLOWER/3J/d_answer_a_tag.png'
+const d_answer_b_tag = 'assets/FLOWER/3J/d_answer_b_tag.png'
+const d_option_a_tag = 'assets/FLOWER/3J/d_option_a_tag.png'
+const d_option_b_tag = 'assets/FLOWER/3J/d_option_b_tag.png'
 
-import TD_1 from '@/components/TD/TD_1.png'
-import TD_4 from '@/components/TD/TD_4.png'
+const TD_1 = 'assets/TD/TD_1.png'
+const TD_4 = 'assets/TD/TD_4.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const choiceAudio = 'audio/DIALOGUES/FLORIST/FLORIST 3.mp3'

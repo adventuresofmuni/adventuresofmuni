@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
 // d1
-import TD_O3 from '@/components/TD/TD_O3.png'
-import Page_3P_eng from '@/components/FLOWER/3P/Page_3P_eng.png'
-import Page_3P_eng_done from '@/components/FLOWER/3P/Page_3P_eng_done.png'
+const TD_O3 = 'assets/TD/TD_O3.png'
+const Page_3P_eng = 'assets/FLOWER/3P/Page_3P_eng.png'
+const Page_3P_eng_done = 'assets/FLOWER/3P/Page_3P_eng_done.png'
 // tagalog
-import Page_3P_tag from '@/components/FLOWER/3P/Page_3P_tag.png'
-import Page_3P_tag_done from '@/components/FLOWER/3P/Page_3P_tag_done.png'
+const Page_3P_tag = 'assets/FLOWER/3P/Page_3P_tag.png'
+const Page_3P_tag_done = 'assets/FLOWER/3P/Page_3P_tag_done.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 import React from 'react'
 const Page_3P = React.forwardRef<

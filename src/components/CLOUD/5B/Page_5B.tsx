@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-import PAGE_5B_eng from '@/components/CLOUD/5B/PAGE_5B_eng.png'
-import bg from '@/components/CLOUD/5B/bg.png'
-import characters from '@/components/CLOUD/5B/characters.gif'
-import PAGE_5B_tag from '@/components/CLOUD/5B/Page_5B_tag.png'
+const PAGE_5B_eng = 'assets/CLOUD/5B/PAGE_5B_eng.png'
+const bg = 'assets/CLOUD/5B/bg.png'
+const characters = 'assets/CLOUD/5B/characters.gif'
+const PAGE_5B_tag = 'assets/CLOUD/5B/Page_5B_tag.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 

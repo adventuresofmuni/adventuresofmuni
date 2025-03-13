@@ -2,16 +2,16 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 //4L
-import TD_2 from '@/components/TD/FISH/TD_2.png'
-import Page_4L_eng from '@/components/FISH/4L/Page_4L_eng.png'
-import Page_4L_tag from '@/components/FISH/4L/Page_4L_tag.png'
+const TD_2 = 'assets/TD/FISH/TD_2.png'
+const Page_4L_eng = 'assets/FISH/4L/Page_4L_eng.png'
+const Page_4L_tag = 'assets/FISH/4L/Page_4L_tag.png'
 //4M
-import TD_3 from '@/components/TD/FISH/TD_3.png'
-import Page_4M_eng1 from '@/components/FISH/4L/Page_4M_eng1.png'
-import Page_4M_eng2 from '@/components/FISH/4L/Page_4M_eng2.png'
+const TD_3 = 'assets/TD/FISH/TD_3.png'
+const Page_4M_eng1 = 'assets/FISH/4L/Page_4M_eng1.png'
+const Page_4M_eng2 = 'assets/FISH/4L/Page_4M_eng2.png'
 
-import Page_4M_tag1 from '@/components/FISH/4L/Page_4M_tag1.png'
-import Page_4M_tag2 from '@/components/FISH/4L/Page_4M_tag2.png'
+const Page_4M_tag1 = 'assets/FISH/4L/Page_4M_tag1.png'
+const Page_4M_tag2 = 'assets/FISH/4L/Page_4M_tag2.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 
