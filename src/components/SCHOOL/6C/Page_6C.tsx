@@ -1,0 +1,42 @@
+import Image from 'next/image'
+import React from 'react'
+
+// SCHOOL 6B
+import bg from '@/components/SCHOOL/6C/bg.png'
+import Page_6C_eng from '@/components/SCHOOL/6C/Page_6C_eng.png'
+// tagalog
+import Page_6C_tag from '@/components/SCHOOL/6C/Page_6C_tag.png'
+import { useLanguage } from '@/hooks/LanguageContext'
+
+const Page_6C = React.forwardRef<HTMLDivElement>((props, ref) => {
+  const { language } = useLanguage()
+  return (
+    <div className="relative w-full h-full" ref={ref}>
+      {/* Background Wrapper */}
+      <div className="flex flex-col items-center justify-end w-full h-screen">
+        <Image
+          className="absolute inset-0 object-cover"
+          fill
+          sizes="100vw"
+          src={bg}
+          alt="background"
+        />
+        {/* English Text */}
+        <Image
+          className="absolute object-contain"
+          style={{
+            right: 70,
+            top: 150,
+            width: '38%',
+          }}
+          src={language === 'eng' ? Page_6C_eng : Page_6C_tag}
+          alt="dialogue"
+        />
+      </div>
+    </div>
+  )
+})
+
+Page_6C.displayName = 'Page_6C'
+
+export default Page_6C

@@ -1,0 +1,42 @@
+Date : 2025-03-11 23:27:39
+Directory : c:\Code\ABC\the-adventures-of-muni
+Total : 7 files,  126 codes, 11 comments, 18 blanks, all 155 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |          6 |        126 |         11 |         17 |        154 |
+| TypeScript     |          1 |          0 |          0 |          1 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |          7 |        126 |         11 |         18 |        155 |
+| src                                                                       |          7 |        126 |         11 |         18 |        155 |
+| src\components                                                            |          5 |        114 |         11 |         12 |        137 |
+| src\components (Files)                                                    |          1 |         51 |          7 |          0 |         58 |
+| src\components\FLOWER                                                     |          4 |         63 |          4 |         12 |         79 |
+| src\components\FLOWER\3G                                                  |          1 |         21 |          1 |          3 |         25 |
+| src\components\FLOWER\3J                                                  |          1 |         12 |          0 |          3 |         15 |
+| src\components\FLOWER\3L                                                  |          1 |         12 |          0 |          3 |         15 |
+| src\components\FLOWER\3MN                                                 |          1 |         18 |          3 |          3 |         24 |
+| src\routes                                                                |          1 |         12 |          0 |          5 |         17 |
+| src\utils                                                                 |          1 |          0 |          0 |          1 |          1 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                  | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Code\ABC\the-adventures-of-muni\src\components\Book.tsx                | TypeScript JSX |         51 |          7 |          0 |         58 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3G\Page_3G.tsx   | TypeScript JSX |         21 |          1 |          3 |         25 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3J\Page_3J.tsx   | TypeScript JSX |         12 |          0 |          3 |         15 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3L\Page_3L.tsx   | TypeScript JSX |         12 |          0 |          3 |         15 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3MN\Page_3MN.tsx | TypeScript JSX |         18 |          3 |          3 |         24 |
+| c:\Code\ABC\the-adventures-of-muni\src\routes\FlowerPage.tsx              | TypeScript JSX |         12 |          0 |          5 |         17 |
+| c:\Code\ABC\the-adventures-of-muni\src\utils\hoverSFX.ts                  | TypeScript     |          0 |          0 |          1 |          1 |
+| Total                                                                     |                |        126 |         11 |         18 |        155 |
++---------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1) Match elements that have the classes --soft and --right
+   2) Whose inline style includes "rotate(" (meaning it’s currently rotating)
+   3) And also includes z-index: 5
+*/
+
+@font-face {
+  font-family: 'dialogue';
+  src: url('/fonts/better_chalk.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stf__item.--soft.--right[style*='rotate('][style*='z-index: 5'] {
+  position: relative;
+}
+
+/* Then overlay white via a pseudo-element */
+.stf__item.--soft.--right[style*='clip-path: polygon(0px 0px']::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* globals.css (or similar) */
+html,
+body {
+  font-family: 'dialogue', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* no scrolling */
+  width: 100%;
+  height: 100%;
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+/* body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* A full-screen container for your “canvas” */
+.page-canvas {
+  position: fixed; /* stay put, no scrolling */
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  background: #000; /* any color you like */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Force a portrait shape: height > width.
+   Example: half as wide as tall (50vh x 100vh).
+   This ensures the container is always narrower than it is tall. */
+.flipbook-container {
+  /* something like 30vw x 100vh, or a ratio that’s clearly tall */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Let the flipbook fill its container */
+.demo-book {
+  width: 100% !important;
+  height: 100% !important;
+}

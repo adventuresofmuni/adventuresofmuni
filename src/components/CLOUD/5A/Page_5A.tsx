@@ -1,0 +1,40 @@
+import Image from 'next/image'
+import React from 'react'
+
+import TD_O3 from '@/components/TD/TD_O3.png'
+import Page_5A_eng from '@/components/CLOUD/5A/Page_5A_eng.png'
+import { useLanguage } from '@/hooks/LanguageContext'
+import Page_5A_tag from '@/components/CLOUD/5A/Page_5A_tag.png'
+
+const Page_5A = React.forwardRef<HTMLDivElement>((props, ref) => {
+  const { language } = useLanguage()
+  return (
+    <div className="relative w-full h-full" ref={ref}>
+      {/* Background Wrapper */}
+      <div className="flex flex-col items-center justify-end w-full h-screen">
+        <Image
+          className="absolute inset-0 object-cover"
+          fill
+          sizes="100vw"
+          src={TD_O3}
+          alt="background"
+        />
+        {/* English Text */}
+        <Image
+          className="absolute object-contain"
+          style={{
+            left: 175,
+            bottom: 320,
+            width: '40%',
+          }}
+          src={language === 'eng' ? Page_5A_eng : Page_5A_tag}
+          alt="dialogue"
+        />
+      </div>
+    </div>
+  )
+})
+
+Page_5A.displayName = 'Page_5A'
+
+export default Page_5A

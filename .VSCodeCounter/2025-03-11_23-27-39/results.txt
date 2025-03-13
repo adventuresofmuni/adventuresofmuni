@@ -1,0 +1,164 @@
+Date : 2025-03-11 23:27:39
+Directory : c:\Code\ABC\the-adventures-of-muni
+Total : 72 files,  10295 codes, 239 comments, 556 blanks, all 11090 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |      6,047 |          0 |          2 |      6,049 |
+| TypeScript JSX     |         55 |      3,938 |        197 |        485 |      4,620 |
+| TypeScript         |          5 |        189 |         14 |         35 |        238 |
+| CSS                |          1 |         48 |         27 |         12 |         87 |
+| JSON with Comments |          1 |         27 |          0 |          1 |         28 |
+| Markdown           |          1 |         23 |          0 |         14 |         37 |
+| JavaScript         |          2 |         18 |          1 |          7 |         26 |
+| XML                |          5 |          5 |          0 |          0 |          5 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |         72 |     10,295 |        239 |        556 |     11,090 |
+| . (Files)                                                                 |          8 |      6,176 |          2 |         29 |      6,207 |
+| public                                                                    |          5 |          5 |          0 |          0 |          5 |
+| src                                                                       |         59 |      4,114 |        237 |        527 |      4,878 |
+| src\app                                                                   |          3 |         91 |         27 |         19 |        137 |
+| src\components                                                            |         50 |      3,644 |        182 |        438 |      4,264 |
+| src\components (Files)                                                    |          3 |        640 |         45 |         50 |        735 |
+| src\components\CLOUD                                                      |         14 |        930 |         49 |        122 |      1,101 |
+| src\components\CLOUD\5A                                                   |          1 |         34 |          2 |          5 |         41 |
+| src\components\CLOUD\5B                                                   |          1 |         45 |          3 |          5 |         53 |
+| src\components\CLOUD\5C                                                   |          1 |         34 |          1 |          4 |         39 |
+| src\components\CLOUD\5D                                                   |          1 |         34 |          1 |          4 |         39 |
+| src\components\CLOUD\5E                                                   |          1 |         27 |          1 |          5 |         33 |
+| src\components\CLOUD\5F                                                   |          1 |         27 |          1 |          4 |         32 |
+| src\components\CLOUD\5G                                                   |          1 |         81 |          5 |          9 |         95 |
+| src\components\CLOUD\5J                                                   |          1 |         90 |          3 |         14 |        107 |
+| src\components\CLOUD\5K                                                   |          1 |         89 |          4 |         10 |        103 |
+| src\components\CLOUD\5M                                                   |          1 |         86 |          3 |         14 |        103 |
+| src\components\CLOUD\5N                                                   |          1 |         80 |          4 |         10 |         94 |
+| src\components\CLOUD\5P                                                   |          1 |        183 |         15 |         22 |        220 |
+| src\components\CLOUD\5Q                                                   |          1 |         40 |          2 |          6 |         48 |
+| src\components\CLOUD\5R                                                   |          1 |         80 |          4 |         10 |         94 |
+| src\components\FISH                                                       |         14 |      1,000 |         39 |        118 |      1,157 |
+| src\components\FISH\4A                                                    |          1 |         34 |          2 |          5 |         41 |
+| src\components\FISH\4B                                                    |          1 |         44 |          3 |          5 |         52 |
+| src\components\FISH\4C                                                    |          1 |         45 |          2 |          5 |         52 |
+| src\components\FISH\4D                                                    |          1 |         37 |          1 |          6 |         44 |
+| src\components\FISH\4E                                                    |          1 |         27 |          1 |          4 |         32 |
+| src\components\FISH\4F                                                    |          1 |         27 |          1 |          4 |         32 |
+| src\components\FISH\4G                                                    |          1 |         27 |          1 |          4 |         32 |
+| src\components\FISH\4H                                                    |          1 |         81 |          5 |          9 |         95 |
+| src\components\FISH\4K                                                    |          1 |         96 |          3 |         14 |        113 |
+| src\components\FISH\4L                                                    |          1 |         80 |          4 |         10 |         94 |
+| src\components\FISH\4N                                                    |          1 |         94 |          3 |         14 |        111 |
+| src\components\FISH\4O                                                    |          1 |         80 |          4 |         10 |         94 |
+| src\components\FISH\4Q                                                    |          1 |        274 |          7 |         21 |        302 |
+| src\components\FISH\4R                                                    |          1 |         54 |          2 |          7 |         63 |
+| src\components\FLOWER                                                     |         13 |        680 |         33 |         98 |        811 |
+| src\components\FLOWER (Files)                                             |          1 |         35 |          0 |          4 |         39 |
+| src\components\FLOWER\3A                                                  |          1 |         27 |          1 |          4 |         32 |
+| src\components\FLOWER\3B                                                  |          1 |         46 |          1 |          4 |         51 |
+| src\components\FLOWER\3C                                                  |          1 |         34 |          1 |          4 |         39 |
+| src\components\FLOWER\3D                                                  |          1 |         34 |          1 |          4 |         39 |
+| src\components\FLOWER\3E                                                  |          1 |         27 |          1 |          4 |         32 |
+| src\components\FLOWER\3F                                                  |          1 |         27 |          1 |          4 |         32 |
+| src\components\FLOWER\3G                                                  |          1 |         81 |          6 |         12 |         99 |
+| src\components\FLOWER\3J                                                  |          1 |         92 |          4 |         17 |        113 |
+| src\components\FLOWER\3K                                                  |          1 |         41 |          3 |          5 |         49 |
+| src\components\FLOWER\3L                                                  |          1 |         92 |          4 |         18 |        114 |
+| src\components\FLOWER\3MN                                                 |          1 |         89 |          7 |         12 |        108 |
+| src\components\FLOWER\3P                                                  |          1 |         55 |          3 |          6 |         64 |
+| src\components\OUTDOOR                                                    |          2 |        156 |          6 |         18 |        180 |
+| src\components\OUTDOOR\2A                                                 |          1 |         68 |          3 |          9 |         80 |
+| src\components\OUTDOOR\2B                                                 |          1 |         88 |          3 |          9 |        100 |
+| src\components\PATHSDONE                                                  |          1 |         62 |          3 |          9 |         74 |
+| src\components\SCHOOL                                                     |          3 |        176 |          7 |         23 |        206 |
+| src\components\SCHOOL\1A                                                  |          1 |         27 |          1 |          5 |         33 |
+| src\components\SCHOOL\1B                                                  |          1 |         79 |          3 |          9 |         91 |
+| src\components\SCHOOL\1C                                                  |          1 |         70 |          3 |          9 |         82 |
+| src\hooks                                                                 |          1 |         62 |          4 |         15 |         81 |
+| src\routes                                                                |          3 |        251 |         15 |         40 |        306 |
+| src\utils                                                                 |          2 |         66 |          9 |         15 |         90 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                  | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Code\ABC\the-adventures-of-muni\README.md                              | Markdown           |         23 |          0 |         14 |         37 |
+| c:\Code\ABC\the-adventures-of-muni\eslint.config.mjs                      | JavaScript         |         12 |          0 |          5 |         17 |
+| c:\Code\ABC\the-adventures-of-muni\next.config.ts                         | TypeScript         |          5 |          1 |          3 |          9 |
+| c:\Code\ABC\the-adventures-of-muni\package-lock.json                      | JSON               |      6,017 |          0 |          1 |      6,018 |
+| c:\Code\ABC\the-adventures-of-muni\package.json                           | JSON               |         30 |          0 |          1 |         31 |
+| c:\Code\ABC\the-adventures-of-muni\postcss.config.mjs                     | JavaScript         |          6 |          1 |          2 |          9 |
+| c:\Code\ABC\the-adventures-of-muni\public\file.svg                        | XML                |          1 |          0 |          0 |          1 |
+| c:\Code\ABC\the-adventures-of-muni\public\globe.svg                       | XML                |          1 |          0 |          0 |          1 |
+| c:\Code\ABC\the-adventures-of-muni\public\next.svg                        | XML                |          1 |          0 |          0 |          1 |
+| c:\Code\ABC\the-adventures-of-muni\public\vercel.svg                      | XML                |          1 |          0 |          0 |          1 |
+| c:\Code\ABC\the-adventures-of-muni\public\window.svg                      | XML                |          1 |          0 |          0 |          1 |
+| c:\Code\ABC\the-adventures-of-muni\src\app\globals.css                    | CSS                |         48 |         27 |         12 |         87 |
+| c:\Code\ABC\the-adventures-of-muni\src\app\layout.tsx                     | TypeScript JSX     |         32 |          0 |          5 |         37 |
+| c:\Code\ABC\the-adventures-of-muni\src\app\page.tsx                       | TypeScript JSX     |         11 |          0 |          2 |         13 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\Book.tsx                | TypeScript JSX     |        476 |         38 |         31 |        545 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5A\Page_5A.tsx    | TypeScript JSX     |         34 |          2 |          5 |         41 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5B\Page_5B.tsx    | TypeScript JSX     |         45 |          3 |          5 |         53 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5C\Page_5C.tsx    | TypeScript JSX     |         34 |          1 |          4 |         39 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5D\Page_5D.tsx    | TypeScript JSX     |         34 |          1 |          4 |         39 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5E\Page_5E.tsx    | TypeScript JSX     |         27 |          1 |          5 |         33 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5F\Page_5F.tsx    | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5G\Page_5G.tsx    | TypeScript JSX     |         81 |          5 |          9 |         95 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5J\Page_5J.tsx    | TypeScript JSX     |         90 |          3 |         14 |        107 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5K\Page_5K.tsx    | TypeScript JSX     |         89 |          4 |         10 |        103 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5M\Page_5M.tsx    | TypeScript JSX     |         86 |          3 |         14 |        103 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5N\Page_5N.tsx    | TypeScript JSX     |         80 |          4 |         10 |         94 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5P\Page_5P.tsx    | TypeScript JSX     |        183 |         15 |         22 |        220 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5Q\Page_5Q.tsx    | TypeScript JSX     |         40 |          2 |          6 |         48 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\CLOUD\5R\Page_5R.tsx    | TypeScript JSX     |         80 |          4 |         10 |         94 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4A\Page_4A.tsx     | TypeScript JSX     |         34 |          2 |          5 |         41 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4B\Page_4B.tsx     | TypeScript JSX     |         44 |          3 |          5 |         52 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4C\Page_4C.tsx     | TypeScript JSX     |         45 |          2 |          5 |         52 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4D\Page_4D.tsx     | TypeScript JSX     |         37 |          1 |          6 |         44 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4E\Page_4E.tsx     | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4F\Page_4F.tsx     | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4G\Page_4G.tsx     | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4H\Page_4H.tsx     | TypeScript JSX     |         81 |          5 |          9 |         95 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4K\Page_4K.tsx     | TypeScript JSX     |         96 |          3 |         14 |        113 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4L\Page_4L.tsx     | TypeScript JSX     |         80 |          4 |         10 |         94 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4N\Page_4N.tsx     | TypeScript JSX     |         94 |          3 |         14 |        111 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4O\Page_4O.tsx     | TypeScript JSX     |         80 |          4 |         10 |         94 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4Q\Page_4Q.tsx     | TypeScript JSX     |        274 |          7 |         21 |        302 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FISH\4R\Page_4R.tsx     | TypeScript JSX     |         54 |          2 |          7 |         63 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3A\Page_3A.tsx   | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3B\Page_3B.tsx   | TypeScript JSX     |         46 |          1 |          4 |         51 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3C\Page_3C.tsx   | TypeScript JSX     |         34 |          1 |          4 |         39 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3D\Page_3D.tsx   | TypeScript JSX     |         34 |          1 |          4 |         39 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3E\Page_3E.tsx   | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3F\Page_3F.tsx   | TypeScript JSX     |         27 |          1 |          4 |         32 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3G\Page_3G.tsx   | TypeScript JSX     |         81 |          6 |         12 |         99 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3J\Page_3J.tsx   | TypeScript JSX     |         92 |          4 |         17 |        113 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3K\Page_3K.tsx   | TypeScript JSX     |         41 |          3 |          5 |         49 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3L\Page_3L.tsx   | TypeScript JSX     |         92 |          4 |         18 |        114 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3MN\Page_3MN.tsx | TypeScript JSX     |         89 |          7 |         12 |        108 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\3P\Page_3P.tsx   | TypeScript JSX     |         55 |          3 |          6 |         64 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\FLOWER\flower1.tsx      | TypeScript JSX     |         35 |          0 |          4 |         39 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\MiniGameModal.tsx       | TypeScript JSX     |         31 |          0 |          3 |         34 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\OUTDOOR\2A\Page_2A.tsx  | TypeScript JSX     |         68 |          3 |          9 |         80 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\OUTDOOR\2B\Page_2B.tsx  | TypeScript JSX     |         88 |          3 |          9 |        100 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\PATHSDONE\Page_5S.tsx   | TypeScript JSX     |         62 |          3 |          9 |         74 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\PickPath.tsx            | TypeScript JSX     |        133 |          7 |         16 |        156 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\SCHOOL\1A\Page_1A.tsx   | TypeScript JSX     |         27 |          1 |          5 |         33 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\SCHOOL\1B\Page_1B.tsx   | TypeScript JSX     |         79 |          3 |          9 |         91 |
+| c:\Code\ABC\the-adventures-of-muni\src\components\SCHOOL\1C\Page_1C.tsx   | TypeScript JSX     |         70 |          3 |          9 |         82 |
+| c:\Code\ABC\the-adventures-of-muni\src\hooks\useDragger.ts                | TypeScript         |         62 |          4 |         15 |         81 |
+| c:\Code\ABC\the-adventures-of-muni\src\routes\FlowerPage.tsx              | TypeScript JSX     |        209 |         14 |         31 |        254 |
+| c:\Code\ABC\the-adventures-of-muni\src\routes\Page.tsx                    | TypeScript JSX     |         22 |          0 |          5 |         27 |
+| c:\Code\ABC\the-adventures-of-muni\src\routes\Page_3B.tsx                 | TypeScript JSX     |         20 |          1 |          4 |         25 |
+| c:\Code\ABC\the-adventures-of-muni\src\utils\hoverSFX.ts                  | TypeScript         |          0 |          0 |          1 |          1 |
+| c:\Code\ABC\the-adventures-of-muni\src\utils\pixelCollision.ts            | TypeScript         |         66 |          9 |         14 |         89 |
+| c:\Code\ABC\the-adventures-of-muni\tailwind.config.ts                     | TypeScript         |         56 |          0 |          2 |         58 |
+| c:\Code\ABC\the-adventures-of-muni\tsconfig.json                          | JSON with Comments |         27 |          0 |          1 |         28 |
+| Total                                                                     |                    |     10,295 |        239 |        556 |     11,090 |
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
