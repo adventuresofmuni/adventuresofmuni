@@ -16,7 +16,7 @@ const Page_4C = React.forwardRef<HTMLDivElement>((props, ref) => {
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
         <img
-          className="absolute inset-0 object-cover"
+          className="w-full h-full absolute inset-0 object-cover"
           sizes="100vw"
           src={Page_4C_bg}
           alt="background"

@@ -14,7 +14,7 @@ const Page_5C = React.forwardRef<HTMLDivElement>((props, ref) => {
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-full">
         <img
-          className="absolute inset-0 object-cover animate-dolly"
+          className="w-full h-full absolute inset-0 object-cover animate-dolly"
           sizes="100vw"
           src={Page_5C_bg}
           alt="background"

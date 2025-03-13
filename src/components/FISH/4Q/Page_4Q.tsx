@@ -222,7 +222,7 @@ const Page_4Q = React.forwardRef<
         >
           {/* dialogue */}
           <img
-            className="absolute object-contain"
+            className="absolute object-contain w-full h-full"
             style={{
               bottom: 0,
               width: '70%',
@@ -234,7 +234,7 @@ const Page_4Q = React.forwardRef<
       )}
       <div className="flex flex-col items-center justify-end w-full h-screen">
         <img
-          className="absolute inset-0 object-cover"
+          className="w-full h-full absolute inset-0 object-cover"
           sizes="100vw"
           src={bg}
           alt="background"

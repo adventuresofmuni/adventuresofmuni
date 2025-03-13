@@ -179,7 +179,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             >
               {/* dialogue */}
               <img
-                className="absolute object-contain"
+                className="absolute object-contain "
                 style={{
                   bottom: 0,
                   width: '70%',
@@ -191,7 +191,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           )}
           {/* Background */}
           <img
-            className="object-cover"
+            className="object-cover w-full h-full"
             sizes="100vw"
             src={sky}
             alt="background"

@@ -5,15 +5,15 @@ const TD_1 = 'assets/TD/CLOUD/TD_1.png'
 const Page_5G_eng = 'assets/CLOUD/5G/Page_5G_eng.png'
 // 5H
 const TD_2 = 'assets/TD/CLOUD/TD_2.png'
-const Page_5H_eng = 'assets/Page_5H_eng.png'
+const Page_5H_eng = 'assets/CLOUD/5G/Page_5H_eng.png'
 // 5I
-const TD_3 = 'assets/TD_3.png'
-const Page_5I_eng = 'assets/Page_5I_eng.png'
+const TD_3 = 'assets/TD/CLOUD/TD_3.png'
+const Page_5I_eng = 'assets/CLOUD/5G/Page_5I_eng.png'
 
 // tagalog
-const Page_5G_tag = 'assets/Page_5G_tag.png'
-const Page_5H_tag = 'assets/Page_5H_tag.png'
-const Page_5I_tag = 'assets/Page_5I_tag.png'
+const Page_5G_tag = 'assets/CLOUD/5G/Page_5G_tag.png'
+const Page_5H_tag = 'assets/CLOUD/5G/Page_5H_tag.png'
+const Page_5I_tag = 'assets/CLOUD/5G/Page_5I_tag.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 
@@ -101,7 +101,7 @@ const Page_5G = React.forwardRef<
       {/* Background Wrapper */}
       <div className="flex flex-col items-center justify-end w-full h-screen">
         <img
-          className="absolute inset-0 object-cover"
+          className="w-full h-full absolute inset-0 object-cover"
           sizes="100vw"
           src={dialogue[currentDialogue].bg}
           alt="background"

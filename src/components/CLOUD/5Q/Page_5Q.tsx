@@ -20,7 +20,7 @@ const Page_5Q = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           onClick={handleNextDialogue}
         >
           <img
-            className="absolute inset-0 object-cover"
+            className="w-full h-full absolute inset-0 object-cover"
             sizes="100vw"
             src={TD_O3}
             alt="background"

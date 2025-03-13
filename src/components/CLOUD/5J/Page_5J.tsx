@@ -116,7 +116,7 @@ const Page_5J = React.forwardRef<
     >
       {/* Choice dialogue screen */}
       <img
-        className="absolute inset-0 object-cover"
+        className="w-full h-full absolute inset-0 object-cover"
         sizes="100vw"
         src={selectedChoice ? TD_1 : TD_4}
         alt="choose-dialogue"

@@ -536,8 +536,8 @@ const Book = () => {
 
   // multiple state of isFlowerDone, isFishDone, isCloudDone
   const [pathsDone, setPathsDone] = useState({
-    flower: false,
-    fish: false,
+    flower: true,
+    fish: true,
     cloud: false,
   })
 
@@ -750,7 +750,7 @@ const Book = () => {
           maxShadowOpacity={0.5}
           onFlip={onFlip}
           onInit={onInit}
-          startPage={0}
+          startPage={44}
           className="demo-book"
           disableFlipByClick={false}
           useMouseEvents={false}

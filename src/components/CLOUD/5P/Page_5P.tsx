@@ -26,7 +26,7 @@ const cloudHitAudio = 'audio/SFX/cloud_hit.mp3'
 const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
   ({ onFlipNext }, ref) => {
     const { language } = useLanguage()
-    const [planePosition, setPlanePosition] = useState({ x: 150, y: 500 })
+    const [planePosition, setPlanePosition] = useState({ x: 100, y: 0 })
     const [showInstructions, setShowInstructions] = useState(true)
     const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
     const planeRef = useRef<HTMLDivElement>(null)
@@ -72,7 +72,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
         onFlipNext()
         // reset everything
         setTimeout(() => {
-          setPlanePosition({ x: 150, y: 500 })
+          setPlanePosition({ x: 100, y: 0 })
           setShowInstructions(true)
         }, 1500)
       }
@@ -99,7 +99,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           }, 3000)
 
           // Reset plane position
-          setPlanePosition({ x: 150, y: 500 })
+          setPlanePosition({ x: 100, y: 0 })
 
           // Force remount of Draggable by updating the key.
           setDragKey((prev) => prev + 1)
@@ -136,24 +136,24 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             />
           </div>
         )}
-        <div className="flex items-center">
-          {/* Background */}
-          <img
-            className="object-cover"
-            sizes="100vw"
-            src={bg}
-            alt="background"
-          />
+
+        <div className="flex items-center h-full w-full">
           {/* Finish Line Ref */}
           <div
             ref={finishLineRef}
-            className="bg-red-500 w-[1px] opacity-0 h-full"
+            className="bg-red-500 w-[1px] h-full"
             style={{
               position: 'absolute',
               top: 0,
               right: 0,
             }}
           ></div>
+          {/* Background */}
+          <img
+            className="object-cover h-full w-full"
+            src={bg}
+            alt="background"
+          />
 
           {/* Clouds */}
           {clouds.map((cloud, index) => (
@@ -186,7 +186,6 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             </div>
           ))}
 
-          {/* Plane */}
           <Draggable
             key={dragKey}
             position={planePosition}
@@ -201,7 +200,7 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
             }}
             nodeRef={planeRef as React.RefObject<HTMLElement>}
           >
-            <div ref={planeRef}>
+            <div ref={planeRef} className="absolute z-10">
               <img
                 className="cursor-pointer animate-updown"
                 draggable={false}
