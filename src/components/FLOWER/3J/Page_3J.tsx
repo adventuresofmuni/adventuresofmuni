@@ -67,7 +67,6 @@ const Page_3J = React.forwardRef<
 
       <img
         className="absolute inset-0 object-cover"
-        fill
         sizes="100vw"
         // if selectedChoice is not null, show the selected choice
         src={selectedChoice ? d2 : TD_4}

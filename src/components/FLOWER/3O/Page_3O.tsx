@@ -57,7 +57,7 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
     )
 
     const draggableRef = useRef<HTMLDivElement>(null)
-    const dropAreaRef = useRef<HTMLimgElement>(null)
+    const dropAreaRef = useRef<HTMLImageElement>(null)
 
     const triggeredRef = useRef(false)
 
@@ -192,7 +192,6 @@ const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           {/* Background */}
           <img
             className="object-cover"
-            fill
             sizes="100vw"
             src={sky}
             alt="background"

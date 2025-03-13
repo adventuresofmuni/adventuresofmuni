@@ -21,7 +21,6 @@ const Page_3K = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
         <div className="flex flex-col items-center justify-end w-full h-screen">
           <img
             className="absolute inset-0 object-cover"
-            fill
             sizes="100vw"
             src={TD_3}
             alt="background"

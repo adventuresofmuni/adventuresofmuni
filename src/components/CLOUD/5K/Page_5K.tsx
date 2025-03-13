@@ -116,7 +116,6 @@ const Page_5K = React.forwardRef<
       <div className="flex flex-col items-center justify-end w-full h-screen">
         <img
           className="absolute inset-0 object-cover"
-          fill
           sizes="100vw"
           src={dialogue[currentDialogue].bg}
           alt="background"

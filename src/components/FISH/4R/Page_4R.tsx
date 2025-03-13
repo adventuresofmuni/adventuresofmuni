@@ -39,7 +39,6 @@ const Page_4R = React.forwardRef<
         >
           <img
             className="absolute inset-0 object-cover"
-            fill
             sizes="100vw"
             src={TD_O2}
             alt="background"

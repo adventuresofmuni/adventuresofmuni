@@ -16,8 +16,7 @@ const Page_3C = React.forwardRef<HTMLDivElement>((props, ref) => {
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-full">
         <img
-          className="absolute inset-0 object-cover animate-dolly"
-          fill
+          className="absolute w-full h-full inset-0 object-cover animate-dolly"
           sizes="100vw"
           src={flower_3C}
           alt="background"

@@ -140,7 +140,6 @@ const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
           {/* Background */}
           <img
             className="object-cover"
-            fill
             sizes="100vw"
             src={bg}
             alt="background"

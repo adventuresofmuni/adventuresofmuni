@@ -77,11 +77,9 @@ const Page_1B = React.forwardRef<
       onClick={handleNextDialogue}
     >
       {/* Background Wrapper */}
-      <div className="flex flex-col items-center justify-end w-full h-screen">
+      <div className="flex flex-col items-center justify-end w-full h-full">
         <img
-          className="absolute inset-0 object-cover"
-          fill
-          sizes="100vw"
+          className="absolute w-full h-full inset-0 object-cover"
           src={dialogue[currentDialogue].bg}
           alt="background"
         />

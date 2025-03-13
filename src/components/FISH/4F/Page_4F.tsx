@@ -12,7 +12,6 @@ const Page_4F = React.forwardRef<HTMLDivElement>((props, ref) => {
       <div className="flex flex-col items-center justify-end w-full h-screen">
         <img
           className="absolute inset-0 object-cover"
-          fill
           sizes="100vw"
           src={TD_O}
           alt="background"

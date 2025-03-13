@@ -82,7 +82,6 @@ const Page_6A = React.forwardRef<
       <div className="flex flex-col items-center justify-center w-full h-screen">
         <img
           className="absolute inset-0 object-cover"
-          fill
           sizes="100vw"
           src={dialogue[currentDialogue].bg}
           alt="background"

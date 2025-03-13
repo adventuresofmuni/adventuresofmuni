@@ -52,28 +52,28 @@ export function pixelPerfectCollision(
   const planeOffsetY = planeRect.top - overlapTop
 
   ctx.clearRect(0, 0, overlapWidth, overlapHeight)
-  ctx.drawimg(
+  ctx.drawImage(
     planeImg,
     planeOffsetX,
     planeOffsetY,
     planeRect.width,
     planeRect.height
   )
-  const planeData = ctx.getimgData(0, 0, overlapWidth, overlapHeight).data
+  const planeData = ctx.getImageData(0, 0, overlapWidth, overlapHeight).data
 
   // Draw the cloud img in the same region
   const cloudOffsetX = cloudRect.left - overlapLeft
   const cloudOffsetY = cloudRect.top - overlapTop
 
   ctx.clearRect(0, 0, overlapWidth, overlapHeight)
-  ctx.drawimg(
+  ctx.drawImage(
     cloudImg,
     cloudOffsetX,
     cloudOffsetY,
     cloudRect.width,
     cloudRect.height
   )
-  const cloudData = ctx.getimgData(0, 0, overlapWidth, overlapHeight).data
+  const cloudData = ctx.getImageData(0, 0, overlapWidth, overlapHeight).data
 
   // Check overlapping pixels for non-zero alpha
   for (let i = 0; i < planeData.length; i += 4) {

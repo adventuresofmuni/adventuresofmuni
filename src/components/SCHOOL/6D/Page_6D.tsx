@@ -15,7 +15,6 @@ const Page_6D = React.forwardRef<HTMLDivElement>((props, ref) => {
     <div className="relative w-full h-full" ref={ref}>
       <img
         className="absolute inset-0 object-cover"
-        fill
         sizes="100vw"
         src={bg}
         alt="background"

@@ -13,8 +13,7 @@ const Page_3A = React.forwardRef<HTMLDivElement>((props, ref) => {
       {/* Background Wrapper (Ensures relative positioning) */}
       <div className="flex flex-col items-center justify-end w-full h-full">
         <img
-          className="absolute inset-0 object-cover"
-          fill
+          className="absolute w-full h-full inset-0 object-cover"
           sizes="100vw"
           src={TD_02}
           alt="background"

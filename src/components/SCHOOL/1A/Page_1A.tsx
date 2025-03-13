@@ -94,7 +94,6 @@ const Page_1A = React.forwardRef<
       <div className="flex flex-col items-center justify-end w-full h-full">
         <img
           className="absolute inset-0 object-cover"
-          fill
           sizes="100vw"
           src={school_1A}
           alt="background"

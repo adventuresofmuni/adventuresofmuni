@@ -56,15 +56,13 @@ const PickPath = React.forwardRef<
     return (
       <div className="relative w-full h-full" ref={ref}>
         {/* Background Wrapper (Ensures relative positioning) */}
-        <div className="relative w-full h-full">
-          <img
-            className="absolute inset-0 object-cover"
-            fill
-            sizes="100vw"
-            src={Path}
-            alt="background"
-          />
-        </div>
+
+        <img
+          className="absolute w-full h-full inset-0 object-cover"
+          sizes="100vw"
+          src={Path}
+          alt="background"
+        />
 
         {/* English Text */}
         <div className="flex justify-center top-0">
