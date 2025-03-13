@@ -21,9 +21,9 @@ import d_answer_b2_tag from '@/components/CLOUD/5J/d_answer_b2_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const dialogueAudio = [
-  '/audio/DIALOGUES/FISHER/FISHER 1.mp3',
-  '/audio/DIALOGUES/FISHER/FISHER 2.mp3',
-  '/audio/DIALOGUES/FISHER/FISHER 3.mp3',
+  'audio/DIALOGUES/FISHER/FISHER 1.mp3',
+  'audio/DIALOGUES/FISHER/FISHER 2.mp3',
+  'audio/DIALOGUES/FISHER/FISHER 3.mp3',
 ]
 
 const Page_5J = React.forwardRef<

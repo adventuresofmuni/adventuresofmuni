@@ -13,7 +13,7 @@ import pick_eng from '@/components/pick_eng.png'
 import pick_tag from '@/components/pick_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
-const clickAudio = '/audio/SFX/click_storybook.mp3'
+const clickAudio = 'audio/SFX/click_storybook.mp3'
 
 const Page_1A = React.forwardRef<
   HTMLDivElement,

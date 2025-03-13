@@ -27,8 +27,8 @@ const PickPath = React.forwardRef<
     let isHoverCooldown = false
     const { language } = useLanguage()
 
-    const hoverSound = new Audio('/audio/SFX/hover_path.mp3')
-    const clickSound = new Audio('/audio/SFX/click_path.mp3')
+    const hoverSound = new Audio('audio/SFX/hover_path.mp3')
+    const clickSound = new Audio('audio/SFX/click_path.mp3')
 
     const playHoverSound = () => {
       if (isHoverCooldown) return // Prevents spamming

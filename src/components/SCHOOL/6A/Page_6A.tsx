@@ -10,8 +10,8 @@ import muni_text from '@/components/SCHOOL/6A/muni_text.png'
 
 // Dialogue Audio
 const dialogueAudio: { [key: string]: string } = {
-  d1: '/audio/SFX/muni_snoring.mp3',
-  d2: '/audio/SFX/muni_wakes_up.mp3',
+  d1: 'audio/SFX/muni_snoring.mp3',
+  d2: 'audio/SFX/muni_wakes_up.mp3',
 }
 
 const Page_6A = React.forwardRef<

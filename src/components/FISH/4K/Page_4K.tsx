@@ -22,12 +22,12 @@ import d_answer_b1_tag from '@/components/FISH/4K/d_answer_b1_tag.png'
 import d_answer_b2_tag from '@/components/FISH/4K/d_answer_b2_tag.png'
 import d_answer_b3_tag from '@/components/FISH/4K/d_answer_b3_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
-// '/audio/DIALOGUES/FISHER/FISHER 1.mp3'
+// 'audio/DIALOGUES/FISHER/FISHER 1.mp3'
 
 const dialogueAudio = [
-  '/audio/DIALOGUES/FISHER/FISHER 1.mp3',
-  '/audio/DIALOGUES/FISHER/FISHER 2.mp3',
-  '/audio/DIALOGUES/FISHER/FISHER 3.mp3',
+  'audio/DIALOGUES/FISHER/FISHER 1.mp3',
+  'audio/DIALOGUES/FISHER/FISHER 2.mp3',
+  'audio/DIALOGUES/FISHER/FISHER 3.mp3',
 ]
 
 const Page_4K = React.forwardRef<

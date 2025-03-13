@@ -21,7 +21,7 @@ import cloud_hit_tag from '@/components/CLOUD/5P/cloud_hit_tag.png'
 // The pixelPerfectCollision function from above
 import { pixelPerfectCollision } from '@/utils/pixelCollision'
 
-const cloudHitAudio = '/audio/SFX/cloud_hit.mp3'
+const cloudHitAudio = 'audio/SFX/cloud_hit.mp3'
 
 const Page_5P = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
   ({ onFlipNext }, ref) => {

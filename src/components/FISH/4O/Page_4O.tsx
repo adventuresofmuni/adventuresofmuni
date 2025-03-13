@@ -17,9 +17,9 @@ import Page_4P_tag from '@/components/FISH/4O/Page_4P_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
 const dialogueAudio: { [key: string]: string } = {
-  d1: '/audio/DIALOGUES/FISHER/FISHER 1.mp3',
-  d2: '/audio/DIALOGUES/FISHER/FISHER 2.mp3',
-  d3: '/audio/DIALOGUES/FISHER/FISHER 3.mp3',
+  d1: 'audio/DIALOGUES/FISHER/FISHER 1.mp3',
+  d2: 'audio/DIALOGUES/FISHER/FISHER 2.mp3',
+  d3: 'audio/DIALOGUES/FISHER/FISHER 3.mp3',
 }
 
 const Page_4O = React.forwardRef<

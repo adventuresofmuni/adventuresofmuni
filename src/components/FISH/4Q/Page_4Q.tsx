@@ -35,7 +35,7 @@ import lapulapu_tag from '@/components/FISH/4Q/caught/lapulapu_tag.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 
-const fishCatchAudio = '/audio/SFX/fish_catch.mp3'
+const fishCatchAudio = 'audio/SFX/fish_catch.mp3'
 
 const Page_4Q = React.forwardRef<
   HTMLDivElement,

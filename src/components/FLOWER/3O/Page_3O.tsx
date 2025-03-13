@@ -30,7 +30,7 @@ import instructions_tag from '@/components/FLOWER/3O/instructions_tag.png'
 import Draggable, { DraggableEvent } from 'react-draggable'
 import { useLanguage } from '@/hooks/LanguageContext'
 
-const flowerDropAudio = '/audio/SFX/flower_drop.mp3'
+const flowerDropAudio = 'audio/SFX/flower_drop.mp3'
 
 const Page_3O = React.forwardRef<HTMLDivElement, { onFlipNext: () => void }>(
   ({ onFlipNext }, ref) => {

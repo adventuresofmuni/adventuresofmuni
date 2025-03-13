@@ -17,7 +17,7 @@ import TD_1 from '@/components/TD/TD_1.png'
 import TD_4 from '@/components/TD/TD_4.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
-const choiceAudio = '/audio/DIALOGUES/FLORIST/FLORIST 3.mp3'
+const choiceAudio = 'audio/DIALOGUES/FLORIST/FLORIST 3.mp3'
 
 const Page_3L = React.forwardRef<
   HTMLDivElement,

@@ -18,7 +18,7 @@ import d_answer_b_tag from '@/components/FLOWER/3J/d_answer_b_tag.png'
 import TD_4 from '@/components/TD/TD_4.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
-const choiceAudio = '/audio/DIALOGUES/FLORIST/FLORIST 1.mp3'
+const choiceAudio = 'audio/DIALOGUES/FLORIST/FLORIST 1.mp3'
 
 const Page_3J = React.forwardRef<
   HTMLDivElement,

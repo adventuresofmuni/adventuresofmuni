@@ -11,8 +11,8 @@ import Page_5S_tag2 from '@/components/PATHSDONE/Page_5S_tag2.png'
 
 import { useLanguage } from '@/hooks/LanguageContext'
 const dialogueAudio: { [key: string]: string } = {
-  d1: '/audio/DIALOGUES/OTTIE.mp3',
-  d2: '/audio/DIALOGUES/OTTIE.mp3',
+  d1: 'audio/DIALOGUES/OTTIE.mp3',
+  d2: 'audio/DIALOGUES/OTTIE.mp3',
 }
 
 const Page_5S = React.forwardRef<

@@ -21,10 +21,10 @@ import { useLanguage } from '@/hooks/LanguageContext'
 
 // Dialogue Audio
 const dialogueAudio: { [key: string]: string } = {
-  d1: '/audio/DIALOGUES/PILOT/PILOT 1.mp3',
-  d2: '/audio/DIALOGUES/PILOT/PILOT 2.mp3',
-  d3: '/audio/DIALOGUES/PILOT/PILOT 3.mp3',
-  d4: '/audio/DIALOGUES/PILOT/PILOT 4.mp3',
+  d1: 'audio/DIALOGUES/PILOT/PILOT 1.mp3',
+  d2: 'audio/DIALOGUES/PILOT/PILOT 2.mp3',
+  d3: 'audio/DIALOGUES/PILOT/PILOT 3.mp3',
+  d4: 'audio/DIALOGUES/PILOT/PILOT 4.mp3',
 }
 
 const Page_5K = React.forwardRef<

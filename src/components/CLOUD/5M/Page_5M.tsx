@@ -17,7 +17,7 @@ import d_answer_a1_tag from '@/components/CLOUD/5M/d_answer_a1_tag.png'
 import d_answer_b1_tag from '@/components/CLOUD/5M/d_answer_b1_tag.png'
 import { useLanguage } from '@/hooks/LanguageContext'
 
-const choiceAudio = '/audio/DIALOGUES/PILOT/PILOT 2.mp3'
+const choiceAudio = 'audio/DIALOGUES/PILOT/PILOT 2.mp3'
 
 const Page_5M = React.forwardRef<
   HTMLDivElement,

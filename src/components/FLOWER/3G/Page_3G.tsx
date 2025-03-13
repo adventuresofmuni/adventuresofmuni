@@ -19,9 +19,9 @@ import { useLanguage } from '@/hooks/LanguageContext'
 
 // Dialogue Audio
 const dialogueAudio: { [key: string]: string } = {
-  d1: '/audio/DIALOGUES/FLORIST/FLORIST 1.mp3',
-  d2: '/audio/DIALOGUES/FLORIST/FLORIST 2.mp3',
-  d3: '/audio/DIALOGUES/FLORIST/FLORIST 3.mp3',
+  d1: 'audio/DIALOGUES/FLORIST/FLORIST 1.mp3',
+  d2: 'audio/DIALOGUES/FLORIST/FLORIST 2.mp3',
+  d3: 'audio/DIALOGUES/FLORIST/FLORIST 3.mp3',
 }
 
 const Page_3G = React.forwardRef<

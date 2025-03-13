@@ -61,385 +61,399 @@ import Page_6E from './SCHOOL/6E/Page_6E'
 const audioMap: { [key: number]: { loop: string[]; once: string[] } } = {
   1: {
     loop: [
-      '/audio/SFX/classroom_ambiance.mp3', // classroom ambience
-      '/audio/SFX/chalk.mp3', // chalk
-      '/audio/MUSIC/beginning.mp3', // music bed
+      'audio/SFX/classroom_ambiance.mp3', // classroom ambience
+      'audio/SFX/chalk.mp3', // chalk
+      'audio/MUSIC/beginning.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/teacher.mp3'], // teacher dialogue (play once)
+    once: ['audio/DIALOGUES/teacher.mp3'], // teacher dialogue (play once)
   },
   2: {
     loop: [
-      '/audio/SFX/classroom_ambiance.mp3', // classroom ambience
-      '/audio/MUSIC/beginning.mp3', // music bed
+      'audio/SFX/classroom_ambiance.mp3', // classroom ambience
+      'audio/MUSIC/beginning.mp3', // music bed
     ], // Keep ambience
     once: ['audio/SFX/dream_transition.mp3'], // Dream transition
   },
   3: {
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/beginning.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/beginning.mp3', // music bed
     ], // Outside ambience
     once: [],
   },
   4: {
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/beginning.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/beginning.mp3', // music bed
     ], // New ambience
-    once: ['/audio/DIALOGUES/OTTIE.mp3'], // Outdoor dialogue
+    once: ['audio/DIALOGUES/OTTIE.mp3'], // Outdoor dialogue
   },
   5: {
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/beginning.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/beginning.mp3', // music bed
     ],
     once: [],
   },
   6: {
     // FLOWER
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/flower_path.mp3', // music bed
     ], // New ambience
     once: [],
   },
   7: {
     // 3B
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/flower_path.mp3', // music bed
     ], // New ambience
     once: [],
   },
   8: {
     // 3C
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/flower_path.mp3', // music bed
     ], // New ambience
-    once: ['/audio/SFX/flower_cart.mp3'], // Outdoor dialogue
+    once: ['audio/SFX/flower_cart.mp3'], // Outdoor dialogue
   },
   9: {
     // 3D
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   10: {
     // 3E
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/FLORIST/FLORIST 1.mp3'],
+    once: ['audio/DIALOGUES/FLORIST/FLORIST 1.mp3'],
   },
   11: {
     // 3F
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/SFX/i_thought.mp3', '/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/SFX/i_thought.mp3', 'audio/DIALOGUES/MUNI.mp3'],
   },
   12: {
     // 3G-N
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
     once: [],
   },
   13: {
     // 3J
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   14: {
     // 3J
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/FLORIST/FLORIST 2.mp3'],
+    once: ['audio/DIALOGUES/FLORIST/FLORIST 2.mp3'],
   },
   15: {
     // 3J
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   16: {
     //
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   17: {
     //
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
     once: [],
   },
   18: {
     //
     loop: [
-      '/audio/MUSIC/flower_path.mp3', // music bed
+      'audio/MUSIC/flower_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3', '/audio/SFX/ottie_you_did_it.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3', 'audio/SFX/ottie_you_did_it.mp3'],
   },
   // FISH
   19: {
     //4A
     loop: [
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3'],
   },
   20: {
     //4B
     loop: [
-      '/audio/SFX/lake_water.mp3', // LAKE WATER
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/SFX/lake_water.mp3', // LAKE WATER
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
     once: [],
   },
   21: {
     //4C
     loop: [
-      '/audio/SFX/lake_water.mp3', // LAKE WATER
-      '/audio/SFX/fishing_rod.mp3', // FISHING ROD
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/SFX/lake_water.mp3', // LAKE WATER
+      'audio/SFX/fishing_rod.mp3', // FISHING ROD
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
     once: [],
   },
   22: {
     //4D
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   23: {
     //4E public\audio\DIALOGUES\FISHER\FISHER 3.mp3
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/FISHER/FISHER 3.mp3'],
+    once: ['audio/DIALOGUES/FISHER/FISHER 3.mp3'],
   },
   24: {
     //4F
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3'],
   },
   25: {
     //4G
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/SFX/i_thought.mp3', '/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/SFX/i_thought.mp3', 'audio/DIALOGUES/MUNI.mp3'],
   },
   26: {
     //4H
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/FISHER/FISHER 1.mp3'],
+    once: ['audio/DIALOGUES/FISHER/FISHER 1.mp3'],
   },
   27: {
     //4K
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   28: {
     //4L DIALOGUE
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   29: {
     //4N
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   30: {
     //4O
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   31: {
     //4Q
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
-      '/audio/SFX/lake_water.mp3', // LAKE WATER
-      '/audio/SFX/bubble.mp3', // BUBBLE
-      '/audio/SFX/fishing_rod.mp3', // FISHING ROD
+      'audio/MUSIC/fish_path.mp3', // music bed
+      'audio/SFX/lake_water.mp3', // LAKE WATER
+      'audio/SFX/bubble.mp3', // BUBBLE
+      'audio/SFX/fishing_rod.mp3', // FISHING ROD
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3'],
   },
   32: {
     //4U
     loop: [
-      '/audio/MUSIC/fish_path.mp3', // music bed
+      'audio/MUSIC/fish_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3', '/audio/SFX/ottie_you_did_it.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3', 'audio/SFX/ottie_you_did_it.mp3'],
   },
   33: {
     //5A
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
-      '/audio/SFX/outdoor_ambiance.wav', // outdoor ambience
+      'audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/SFX/outdoor_ambiance.wav', // outdoor ambience
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3'],
   },
   34: {
     //5B
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
-      '/audio/SFX/strong_wind.mp3', // outdoor ambience
+      'audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/SFX/strong_wind.mp3', // outdoor ambience
     ],
     once: [],
   },
   35: {
     //5C
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
-      '/audio/SFX/strong_wind.mp3', // outdoor ambience
-      '/audio/SFX/propeller.mp3', // Propeller
+      'audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/SFX/strong_wind.mp3', // outdoor ambience
+      'audio/SFX/propeller.mp3', // Propeller
     ],
     once: [],
   },
   36: {
     //5D
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   37: {
     // 5E
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/PILOT/PILOT 1.mp3'],
+    once: ['audio/DIALOGUES/PILOT/PILOT 1.mp3'],
   },
   38: {
     // 5F
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/SFX/i_thought.mp3', '/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/SFX/i_thought.mp3', 'audio/DIALOGUES/MUNI.mp3'],
   },
   39: {
     // 5G
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/PILOT/PILOT 1.mp3'],
+    once: ['audio/DIALOGUES/PILOT/PILOT 1.mp3'],
   },
   40: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   41: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   42: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   43: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
   44: {
     // 5P
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
-      '/audio/SFX/propeller.mp3', // Propeller
-      '/audio/SFX/strong_wind.mp3', // outdoor ambience
+      'audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/SFX/propeller.mp3', // Propeller
+      'audio/SFX/strong_wind.mp3', // outdoor ambience
     ],
     once: [],
   },
   45: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3', '/audio/SFX/ottie_you_did_it.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3', 'audio/SFX/ottie_you_did_it.mp3'],
   },
   46: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/PILOT/PILOT 1.mp3'],
+    once: ['audio/DIALOGUES/PILOT/PILOT 1.mp3'],
   },
   47: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3'],
   },
   48: {
     // 5J
     loop: [
-      '/audio/MUSIC/pilot_path.mp3', // music bed
+      'audio/MUSIC/pilot_path.mp3', // music bed
     ],
-    once: ['/audio/DIALOGUES/OTTIE.mp3'],
+    once: ['audio/DIALOGUES/OTTIE.mp3'],
   },
   49: {
     // 5J
     loop: [
-      '/audio/SFX/classroom_ambience_end.mp3', // dream transition
-      // '/audio/SFX/6A (MUNI SNORING).mp3', // SNORING
+      'audio/SFX/classroom_ambience_end.mp3', // dream transition
+      // 'audio/SFX/6A (MUNI SNORING).mp3', // SNORING
     ],
     once: [],
   },
   50: {
     // 5J
     loop: [
-      '/audio/SFX/classroom_ambience_end.mp3', // dream transition
-      // '/audio/SFX/6A (MUNI SNORING).mp3', // SNORING
+      'audio/SFX/classroom_ambience_end.mp3', // dream transition
+      // 'audio/SFX/6A (MUNI SNORING).mp3', // SNORING
     ],
-    once: ['/audio/DIALOGUES/teacher.mp3'], // teacher dialogue (play once)
+    once: ['audio/DIALOGUES/teacher.mp3'], // teacher dialogue (play once)
   },
   51: {
     // 5J
     loop: [
-      '/audio/SFX/classroom_ambience_end.mp3', // dream transition
-      // '/audio/SFX/6A (MUNI SNORING).mp3', // SNORING
+      'audio/SFX/classroom_ambience_end.mp3', // dream transition
+      // 'audio/SFX/6A (MUNI SNORING).mp3', // SNORING
     ],
-    once: ['/audio/DIALOGUES/MUNI.mp3'],
+    once: ['audio/DIALOGUES/MUNI.mp3'],
   },
 }
 
-const flipAudio = '/audio/SFX/page_flip.mp3'
+const flipAudio = 'audio/SFX/page_flip.mp3'
+
+const preloadImages = (imageUrls: string[]): Promise<void[]> => {
+  return Promise.all(
+    imageUrls.map(
+      (url) =>
+        new Promise<void>((resolve, reject) => {
+          const img = new Image()
+          img.src = url
+          img.onload = () => resolve()
+          img.onerror = reject
+        })
+    )
+  )
+}
 
 const Book = () => {
   //@ts-expect-error
@@ -450,7 +464,9 @@ const Book = () => {
   const [hideButtons, setHideButtons] = useState(false)
   const isFlippingRef = useRef(false)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
+  const [isLoading, setIsLoading] = useState(true)
 
+  //  PRE LOAD ASSETS PAGE
   const playFlipAudio = () => {
     const audio = new Audio(flipAudio)
     audio.play()
